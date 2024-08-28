@@ -1,0 +1,31 @@
+C:\Users\Wojtek\source\repos\Projekt inz\Projekt inz\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\Wojtek\source\repos\Projekt inz\Projekt inz\bin\Debug\net7.0\appsettings.json
+C:\Users\Wojtek\source\repos\Projekt inz\Projekt inz\bin\Debug\net7.0\Projekt inz.staticwebassets.runtime.json
+C:\Users\Wojtek\source\repos\Projekt inz\Projekt inz\bin\Debug\net7.0\Projekt inz.exe
+C:\Users\Wojtek\source\repos\Projekt inz\Projekt inz\bin\Debug\net7.0\Projekt inz.deps.json
+C:\Users\Wojtek\source\repos\Projekt inz\Projekt inz\bin\Debug\net7.0\Projekt inz.runtimeconfig.json
+C:\Users\Wojtek\source\repos\Projekt inz\Projekt inz\bin\Debug\net7.0\Projekt inz.dll
+C:\Users\Wojtek\source\repos\Projekt inz\Projekt inz\bin\Debug\net7.0\Projekt inz.pdb
+C:\Users\Wojtek\source\repos\Projekt inz\Projekt inz\obj\Debug\net7.0\Projekt inz.csproj.AssemblyReference.cache
+C:\Users\Wojtek\source\repos\Projekt inz\Projekt inz\obj\Debug\net7.0\Projekt inz.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Wojtek\source\repos\Projekt inz\Projekt inz\obj\Debug\net7.0\Projekt inz.AssemblyInfoInputs.cache
+C:\Users\Wojtek\source\repos\Projekt inz\Projekt inz\obj\Debug\net7.0\Projekt inz.AssemblyInfo.cs
+C:\Users\Wojtek\source\repos\Projekt inz\Projekt inz\obj\Debug\net7.0\Projekt inz.csproj.CoreCompileInputs.cache
+C:\Users\Wojtek\source\repos\Projekt inz\Projekt inz\obj\Debug\net7.0\Projekt inz.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Wojtek\source\repos\Projekt inz\Projekt inz\obj\Debug\net7.0\Projekt inz.RazorAssemblyInfo.cache
+C:\Users\Wojtek\source\repos\Projekt inz\Projekt inz\obj\Debug\net7.0\Projekt inz.RazorAssemblyInfo.cs
+C:\Users\Wojtek\source\repos\Projekt inz\Projekt inz\obj\Debug\net7.0\staticwebassets\msbuild.Projekt inz.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Wojtek\source\repos\Projekt inz\Projekt inz\obj\Debug\net7.0\staticwebassets\msbuild.build.Projekt inz.props
+C:\Users\Wojtek\source\repos\Projekt inz\Projekt inz\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Projekt inz.props
+C:\Users\Wojtek\source\repos\Projekt inz\Projekt inz\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Projekt inz.props
+C:\Users\Wojtek\source\repos\Projekt inz\Projekt inz\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\Wojtek\source\repos\Projekt inz\Projekt inz\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\Wojtek\source\repos\Projekt inz\Projekt inz\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\Wojtek\source\repos\Projekt inz\Projekt inz\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Wojtek\source\repos\Projekt inz\Projekt inz\obj\Debug\net7.0\scopedcss\bundle\Projekt inz.styles.css
+C:\Users\Wojtek\source\repos\Projekt inz\Projekt inz\obj\Debug\net7.0\scopedcss\projectbundle\Projekt inz.bundle.scp.css
+C:\Users\Wojtek\source\repos\Projekt inz\Projekt inz\obj\Debug\net7.0\Projekt inz.dll
+C:\Users\Wojtek\source\repos\Projekt inz\Projekt inz\obj\Debug\net7.0\refint\Projekt inz.dll
+C:\Users\Wojtek\source\repos\Projekt inz\Projekt inz\obj\Debug\net7.0\Projekt inz.pdb
+C:\Users\Wojtek\source\repos\Projekt inz\Projekt inz\obj\Debug\net7.0\Projekt inz.genruntimeconfig.cache
+C:\Users\Wojtek\source\repos\Projekt inz\Projekt inz\obj\Debug\net7.0\ref\Projekt inz.dll
