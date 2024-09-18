@@ -23,6 +23,12 @@ namespace Projekt_inz.Controllers
             return View();
         }
 
+        // Dodaj akcję Login
+        public IActionResult Login()
+        {
+            return View();
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

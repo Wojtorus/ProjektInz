@@ -15,12 +15,33 @@ body {
     overflow-x: hidden;
 }
 
+#container {
+    position:absolute;
+    display:block;
+    flex-direction: column;
+    width:auto;
+    height:auto;
+   
+}
+
+#tlo {
+    box-shadow: inset 0px 90px 60px black, inset 0px -90px 60px black;
+    position: relative;
+    background-image: url('/img/ProbaPrzyciemnienie1.jpg');
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; /* Zapobiega powtarzaniu obrazu */
+    overflow: hidden;
+}
+
 header
 {
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 100vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -43,6 +64,8 @@ header ul li
     margin-left: 2rem;
 }
 
+
+
 header ul li a
 {
     font-weight: 600;
@@ -51,93 +74,337 @@ header ul li a
     transition: all .3s ease;
 }
 
-header ul li a:hover
+    header ul li a:hover {
+        color: #ff84ff;
+    }
+
+
+#rightNavlist {
+    margin-left: 3rem;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 400px;
+}
+
+#mojeKonto {
+    padding: 5px 10px;
+    margin-right: 4rem;
+    white-space: nowrap;
+}
+
+    #mojeKonto:hover a, #mojeKonto:hover i {
+        color: #ff84ff;
+        text-shadow: 0px 0px 3px #ff84ff;
+        transition: all ease-in-out .3s
+    }
+
+    #mojeKonto a {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+    }
+
+    #mojeKonto i {
+        margin-right: 5px; 
+        font-size: 20px;
+        line-height: 1; 
+    }
+
+#WstawOgloszenie {
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 3px solid gold;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 40px;
+    width: auto;
+    padding: 20px 20px;
+    white-space: nowrap;
+    transition: all ease-in-out .5s;
+}
+
+#WstawOgloszenie:hover
 {
-     background: #ff84ff;
-     color: #fff;
+    background-color: darkgoldenrod;
+    color: black;
 }
 
-header ul li a.active
-{            
-    background: #ff84ff;
-    color: #fff;
+#welcomeText {
+    width: auto;
+    position: absolute;
+    top: 25%;
+    left: 50%; /* Pozycjonowanie od lewej krawêdzi */
+    transform: translate(-50%, 0);
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1.2;
+    overflow: hidden;
+    white-space: nowrap;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
 }
 
-.darkCity {
-    position: relative;
+#typingText::after {
+    content: "|";
+    color: white;
+    font-weight: 200;
+    font-size: 100px;
+    animation: blink .75s step-end infinite;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+}
+
+@keyframes blink
+{
+    from, to{opacity:0}
+    50%{opacity:1}
+}
+
+.search-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background-color: #1e1e1e;
+    padding: 20px;
+    width: 80%;
+    max-width: 1200px;
+    border-radius: 10px;
+    border: 3px solid gold;
+    opacity: .9;
+}
+
+.tabs {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.tab {
+    flex: 1;
+    background-color: #1e1e1e;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+    .tab.active {
+        border-bottom: 2px solid #ff84ff;
+    }
+
+    .tab:hover {
+        background-color: #444444;
+    }
+
+.search-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color:#ffffff;
+}
+
+.form-row {
+    display: flex;
+    gap: 20px;
+}
+
+.dropdown-button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.input-text, .input-price, .input-surface {
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: #222;
+    color: white;
+    font-size: 16px;
+    width: 100%;
+    max-width: 200px;
+}
+input.input-text:focus, input.input-price:focus, input.input-surface:focus {
+    border: 2px solid #ff84ff;
+    outline: none;
+}
+
+
+    .input-text::placeholder, .input-price::placeholder, .input-surface::placeholder {
+        color: #888;
+    }
+
+.price, .surface {
     display: flex;
     align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100vh;
+    gap: 10px;
+}
+
+.search-button {
+    background-color: #cc6acc;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
+
+    .search-button i {
+        margin-right: 5px;
+    }
+
+    .search-button:hover {
+        background-color: #ff84ff;
+    }
+
+#drugieTlo {
+    box-shadow: inset 0px 10px 20px black;
+    background-color: #fffff0;
+    width: 100vw;
+    height: auto;
+    position: relative;
+}
+
+
+.promowane-ogloszenia {
+    padding: 20px;
+    background-color: #1e1e1e;
+}
+    .promowane-ogloszenia a {
+        color: #cc6acc;
+        text-decoration: underline;
+        text-decoration-color: #cc6acc;
+        margin-left: 10px;
+    }
+
+    .promowane-ogloszenia h2 
+    {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+.ogloszenia-container {
+    display: flex;
+    gap: 20px;
+}
+
+.ogloszenie {
+    background-color: #2b2b2b;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    transition: transform .3s ease-in-out;
+}
+
+    .ogloszenie:hover
+    {
+        cursor:pointer;
+    }
+
+    .ogloszenie img {
+        position:relative;
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        z-index: 1;
+        transition: all .3s ease-in-out;
+    }
+
+    .ogloszenie:hover img {
+        transform: scale(1.15);
+        overflow: hidden;
+    }
+
+.imgClass
+{
     overflow: hidden;
 }
 
-@media(min-height: 878) and ( min-width: 1531) 
-{
-    .darkCity 
-    {
-       object-fit: contain;
-    }
-}
-
-.darkCity h2
-{
-    position:absolute;
-    text-align: center;
-    font-size: 5em;
-    line-height: .95;
-    font-weight: 800;
-    text-shadow: 6px 6px 4px #000;
-}
-
-.darkCity h2 span
-{
-    font-size: .40em;
-    letter-spacing: 2px;        
-    font-weight: 500;
-}
-
-section img
-{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    object-fit: cover;
-    pointer-events: none;
-}
-
-
-section img#purple,#moon
-{
-    mix-blend-mode: screen; /*CO TO JEST???*/
-}
-
-    section img#grass {
-        object-fit: contain; /* Zapewnia, ¿e ca³y obraz jest widoczny */
-        width: 100%;
-        height: 100%; /* Zachowuje proporcje obrazu */
-        bottom: 0;
-        left: 0;
-        position: absolute;
-    }
-
-
-.underGround
-{
+.opis {
+    height:auto;
     position: relative;
-    padding: 0px 20px 20px 20px;
-    background: #000;
+    padding: 5px;
+    z-index: 10;
 }
 
-.underGround h2
-{
-    font-size: 3em;
-    margin-bottom: 1rem;
+    .opis h3 {
+        font-size: 18px;
+    }
+
+    .opis p {
+        font-size: 14px;
+        color: #ccc;
+    }
+
+.rodzaje-nieruchomosci {
+    padding: 20px;
+    background-color: #1e1e1e;
+    margin-top: 50px;
 }
 
-.underGround p
-{
-    font-size: 1em;
+.rodzaje-container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
 }
+
+.rodzaj-tab {
+    padding: 10px 20px;
+    background-color: #2b2b2b;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+    .rodzaj-tab.active {
+        background-color: #ff84ff;
+    }
+
+.nieruchomosci-grid {
+    display: flex;
+    gap: 20px;
+}
+
+.nieruchomosc {
+    width: 23%;
+    text-align: center;
+}
+
+    .nieruchomosc img {
+        width: 100%;
+        border-radius: 10px;
+        transition: transform 0.3s;
+    }
+
+        .nieruchomosc img:hover {
+            transform: scale(1.05);
+        }
+
+    .nieruchomosc p {
+        margin-top: 10px;
+        font-size: 16px;
+    }
+
+
+
+
+

@@ -9,44 +9,80 @@
       "PackagePath": "staticwebassets\\css\\HomePage.css"
     },
     {
+      "Id": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\css\\Login.css",
+      "PackagePath": "staticwebassets\\css\\Login.css"
+    },
+    {
+      "Id": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\css\\font\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\css\\font\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\css\\font\\README.txt",
+      "PackagePath": "staticwebassets\\css\\font\\README.txt"
+    },
+    {
+      "Id": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\css\\font\\config.json",
+      "PackagePath": "staticwebassets\\css\\font\\config.json"
+    },
+    {
+      "Id": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\css\\font\\css\\animation.css",
+      "PackagePath": "staticwebassets\\css\\font\\css\\animation.css"
+    },
+    {
+      "Id": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\css\\font\\css\\fontello-codes.css",
+      "PackagePath": "staticwebassets\\css\\font\\css\\fontello-codes.css"
+    },
+    {
+      "Id": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\css\\font\\css\\fontello-embedded.css",
+      "PackagePath": "staticwebassets\\css\\font\\css\\fontello-embedded.css"
+    },
+    {
+      "Id": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\css\\font\\css\\fontello-ie7-codes.css",
+      "PackagePath": "staticwebassets\\css\\font\\css\\fontello-ie7-codes.css"
+    },
+    {
+      "Id": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\css\\font\\css\\fontello-ie7.css",
+      "PackagePath": "staticwebassets\\css\\font\\css\\fontello-ie7.css"
+    },
+    {
+      "Id": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\css\\font\\css\\fontello.css",
+      "PackagePath": "staticwebassets\\css\\font\\css\\fontello.css"
+    },
+    {
+      "Id": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\css\\font\\demo.html",
+      "PackagePath": "staticwebassets\\css\\font\\demo.html"
+    },
+    {
+      "Id": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\css\\font\\font\\fontello.eot",
+      "PackagePath": "staticwebassets\\css\\font\\font\\fontello.eot"
+    },
+    {
+      "Id": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\css\\font\\font\\fontello.svg",
+      "PackagePath": "staticwebassets\\css\\font\\font\\fontello.svg"
+    },
+    {
+      "Id": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\css\\font\\font\\fontello.ttf",
+      "PackagePath": "staticwebassets\\css\\font\\font\\fontello.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\css\\font\\font\\fontello.woff",
+      "PackagePath": "staticwebassets\\css\\font\\font\\fontello.woff"
+    },
+    {
+      "Id": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\css\\font\\font\\fontello.woff2",
+      "PackagePath": "staticwebassets\\css\\font\\font\\fontello.woff2"
+    },
+    {
       "Id": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\img\\city-left.png",
-      "PackagePath": "staticwebassets\\img\\city-left.png"
+      "Id": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\img\\Dom1.webp",
+      "PackagePath": "staticwebassets\\img\\Dom1.webp"
     },
     {
-      "Id": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\img\\city-right.png",
-      "PackagePath": "staticwebassets\\img\\city-right.png"
-    },
-    {
-      "Id": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\img\\grass.png",
-      "PackagePath": "staticwebassets\\img\\grass.png"
-    },
-    {
-      "Id": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\img\\ground.png",
-      "PackagePath": "staticwebassets\\img\\ground.png"
-    },
-    {
-      "Id": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\img\\moon.png",
-      "PackagePath": "staticwebassets\\img\\moon.png"
-    },
-    {
-      "Id": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\img\\purple-light.png",
-      "PackagePath": "staticwebassets\\img\\purple-light.png"
-    },
-    {
-      "Id": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\img\\sky.png",
-      "PackagePath": "staticwebassets\\img\\sky.png"
-    },
-    {
-      "Id": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\img\\stars.png",
-      "PackagePath": "staticwebassets\\img\\stars.png"
-    },
-    {
-      "Id": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\img\\tree.png",
-      "PackagePath": "staticwebassets\\img\\tree.png"
+      "Id": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\img\\ProbaPrzyciemnienie1.jpg",
+      "PackagePath": "staticwebassets\\img\\ProbaPrzyciemnienie1.jpg"
     },
     {
       "Id": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\js\\HomePage.js",

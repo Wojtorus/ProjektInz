@@ -6,44 +6,124 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portal Nieruchomściowy</title>
     <link rel="stylesheet" href="~/css/HomePage.css" />
+    <link rel="stylesheet" href="~/css/font/css/fontello.css" />
 </head>
 
 <body>
-    <header>
-        <a href ="#" class="logo">Logo</a>
-        <ul class="navlist">
-            <li><a href="#" class="active">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </header>
+    <div id="container">
+        <div id="tlo">
+             <header>
+                <a href ="#" class="logo">Logo</a>
+                <ul class="navlist">
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#" >Home</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+                <div id="rightNavlist">
+                    <div id="mojeKonto"><a href="@Url.Action("Login", "Home")"><i class="icon-user"></i>Moje konto</a></div>
+                    <div id="WstawOgloszenie"><a href="#">Dodaj ogłoszenie</a></div>
+                </div>
+             </header>
 
-    <section class="darkCity">
-        <img src="~/img/sky.png" alt="" />
-        <img src="~/img/stars.png" alt="" />
-        <img src="~/img/moon.png" id="moon" />
-        <img src="~/img/city-left.png" id="cityLeft" />
-        <img src="~/img/city-right.png" id="ciyRight" />
-        <img src="~/img/purple-light.png" id="purple" />
-        <img src="~/img/tree.png" alt="" />
-        <img src="~/img/ground.png" alt="" />
-        <h2 id="text"><span>Welcome to</span><br>Nazwa Portalu</h2>   
-        <img src="~/img/grass.png" alt="" />
-    </section>
+            <div id="welcomeText">
+                <h1 id="typingText"></h1>
+            </div>
 
-    <div class="underGround">
-        <h2>Portal nieruchmościowy</h2>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et ex consectetur, feugiat odio vel, volutpat tellus. Vivamus varius quam eu egestas euismod. Fusce eget nulla at diam fermentum vulputate a mattis ligula. Morbi varius gravida diam hendrerit egestas. Aliquam ac tincidunt tortor. Proin pulvinar tortor sit amet turpis blandit hendrerit at a eros. Aliquam consequat magna bibendum nibh aliquam auctor. Donec et diam quis felis lacinia tristique. Cras sit amet tellus nulla. Aenean sed mattis dui, a ultrices justo. Sed posuere, arcu eu vestibulum pulvinar, elit justo pellentesque ante, a porta arcu dui sit amet justo. Maecenas ornare sem eu leo tincidunt tincidunt.
-            <br /><br />
-            Maecenas aliquet in nunc nec porta. Vestibulum pharetra, magna eget facilisis pretium, ex justo maximus eros, sit amet viverra erat odio a purus. Sed gravida condimentum massa, ac congue leo vestibulum sed. Aliquam pharetra sollicitudin posuere. Etiam finibus felis sed urna gravida feugiat. Maecenas a est leo. Aenean maximus cursus bibendum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis ultrices, erat a iaculis tincidunt, enim metus commodo nunc, vitae dictum lacus metus non ipsum. Donec pulvinar ante quis urna pellentesque posuere. Sed consequat odio nibh, nec vestibulum mauris tempor in. Duis interdum finibus dui sit amet elementum. Vestibulum nec viverra orci.
-            <br /><br />Nunc consectetur massa felis, eu viverra enim vulputate quis. Proin ullamcorper, neque sed rutrum tincidunt, justo metus mattis ante, non dignissim felis nulla eget magna. Mauris aliquet faucibus accumsan. Mauris nisi metus, porta nec rutrum id, dictum sit amet mauris. Suspendisse sagittis est eu rutrum volutpat. Phasellus nec ullamcorper est, id accumsan nunc. Integer massa odio, cursus non tortor at, gravida efficitur arcu. Vestibulum rutrum lacus ac scelerisque hendrerit. Curabitur tempor ante sit amet lacus auctor, eu auctor quam ultrices. Duis tempor interdum ante, et condimentum nulla sagittis id. Duis turpis elit, congue non dapibus a, scelerisque pharetra orci. Nulla eu porttitor orci.
+            <div class="search-container">
+                <div class="tabs">
+                    <button class="tab active">Szukaj</button>
+                    <button class="tab">Oferty deweloperów</button>
+                </div>
 
-            <br /><br />Pellentesque metus nisi, sollicitudin ut mauris sit amet, porttitor imperdiet velit. Cras vel lorem id orci aliquam vulputate. Mauris at faucibus felis, quis sodales ligula. Vivamus pharetra ligula vel dui blandit tincidunt. Nulla metus nisi, bibendum vulputate pellentesque in, porttitor non quam. Sed lobortis mi id tempor malesuada. Vestibulum posuere augue eu nisl commodo tristique. Ut quis magna eu mauris cursus lacinia. Phasellus commodo sagittis venenatis. Integer arcu est, rhoncus vitae nunc eu, lacinia tempor massa. Morbi lacinia accumsan rhoncus. Ut id massa ut odio tincidunt gravida vitae et lacus. Donec venenatis nec sem quis suscipit. Mauris eleifend hendrerit nibh, eu vulputate augue. Integer ultricies nulla eu accumsan accumsan. Integer posuere vel ante sed mollis.
-        </p>
+                <div class="search-form">
+                    <div class="form-row">
+                        <div class="dropdown">
+                            <button class="dropdown-button">Mieszkania ▼</button>
+                        </div>
+                        <div class="dropdown">
+                            <button class="dropdown-button">Na sprzedaż ▼</button>
+                        </div>
+                        <input type="text" class="input-text" placeholder="Wpisz lokalizację">
+                        <div class="dropdown">
+                            <button class="dropdown-button">+ 0 km ▼</button>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="price">
+                            <span>Cena</span>
+                            <input type="text" placeholder="od" class="input-price"> zł
+                            <input type="text" placeholder="do" class="input-price"> zł
+                        </div>
+                        <div class="surface">
+                            <span>Powierzchnia</span>
+                            <input type="text" placeholder="od" class="input-surface"> m²
+                            <input type="text" placeholder="do" class="input-surface"> m²
+                        </div>
+                        <button class="search-button"><i class="fa fa-search"></i> Wyszukaj</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="drugieTlo">
+            <div class="promowane-ogloszenia">
+                <h2>Promowane ogłoszenia <a href="#">Zobacz Wszystkie</a></h2>
+                <div class="ogloszenia-container">
+                    <a href="#" style="text-decoration: none;">
+                        <div class="ogloszenie">
+                            <div class="imgClass">
+                                <img src="~/img/Dom1.webp" alt="Ogłoszenie 1">
+                            </div>
+                            <div class="opis">
+                                <h3>Zapytaj o cenę</h3>
+                                <p>ul. Spitalna, Kołobrzeg...</p>
+                            </div>
+                    </div></a>
+                    <div class="ogloszenie">
+                        <div class="imgClass">
+                            <img src="~/img/Dom1.webp" alt="Ogłoszenie 2">
+                        </div>
+                        <div class="opis">
+                            <h3>887 781 zł</h3>
+                            <p>Gdańsk, Ujeścisko-Łostowice...</p>
+                        </div>
+                    </div>
+                    <div class="ogloszenie">
+                        <div class="imgClass">
+                            <img src="~/img/Dom1.webp" alt="Ogłoszenie 3">
+                        </div>
+                        <div class="opis">
+                            <h3>120 000 zł</h3>
+                            <p>Poznań, Łazarz</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+            <div class="rodzaje-nieruchomosci">
+                <h2>Rodzaje nieruchomości</h2>
+                <div class="rodzaje-container">
+                    <button class="rodzaj-tab active">Na sprzedaż</button>
+                    <button class="rodzaj-tab">Na wynajem</button>
+                </div>
+                <div class="nieruchomosci-grid">
+                    <div class="nieruchomosc">
+                        <img src="~/img/Dom1.webp" alt="Mieszkanie">
+                        <p>Mieszkania</p>
+                    </div>
+                    <div class="nieruchomosc">
+                        <img src="~/img/Dom1.webp" alt="Dom">
+                        <p>Domy</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <script src="~/js/HomePage.js"></script>
 
+
+
+    <script src="~/js/HomePage.js"></script>
 </body>
 </html>

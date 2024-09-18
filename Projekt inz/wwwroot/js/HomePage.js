@@ -1,19 +1,29 @@
-﻿let moon = document.getElementById("moon");
-let text = document.getElementById("text");
-let cityRight = document.getElementById("ciyRight");
-let cityLeft = document.getElementById("cityLeft");
+﻿let text = "Welcome to Manufacture";
+let index = 0;
+let typingText = document.getElementById('typingText');
 
-window.addEventListener("scroll", () => {
-    let value = window.scrollY;
-    let screenWidth = window.innerWidth;
-    moon.style.top = value * .75 + "px"
-    cityLeft.style.left = value * -1.5 + "px";
-    cityRight.style.left = value * 1.5 + "px";
+function typeWriter()
+{
+    if (index < text.length)
+    {
+        typingText.innerHTML += text.charAt(index);
+        index++;
+        setTimeout(typeWriter, 200);
+    }
+}
 
-    if (screenWidth > 1356) {
-        text.style.marginTop = value * 1.5 + "px";
-    }
-    else {
-        text.style.marginTop = value * .7 + "px";
-    }
+
+window.onload = typeWriter;
+
+document.addEventListener("DOMContentLoaded", function () {
+
+    const buttons = document.querySelectorAll(".tabs button");
+    buttons.forEach(function (button) {
+        button.addEventListener("click", function () {
+            buttons.forEach(function (btn) {
+                btn.classList.remove("active");
+            });
+            this.classList.add("active");
+        });
+    });
 });
