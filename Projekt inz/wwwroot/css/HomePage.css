@@ -27,7 +27,6 @@ body {
 #tlo {
     box-shadow: inset 0px 90px 60px black, inset 0px -90px 60px black;
     position: relative;
-    background-image: url('/img/ProbaPrzyciemnienie1.jpg');
     width: 100vw;
     height: 100vh;
     background-size: cover;
@@ -124,13 +123,12 @@ header ul li a
     width: auto;
     padding: 20px 20px;
     white-space: nowrap;
-    transition: all ease-in-out .5s;
+    transition: all ease .5s;
 }
 
 #WstawOgloszenie:hover
 {
     background-color: darkgoldenrod;
-    color: black;
 }
 
 #welcomeText {
@@ -202,37 +200,84 @@ header ul li a
         background-color: #444444;
     }
 
-.search-form {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    color:#ffffff;
+.content-section {
+    display: none;
 }
 
+    .content-section.active {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        color: #ffffff;
+    }
 .form-row {
     display: flex;
     gap: 20px;
 }
+.dropdown {
+    position: relative;
+    display: inline-block;
+    width: 200px;
+}
 
 .dropdown-button {
+    width: 100%;
+    padding: 10px;
     background-color: #333;
-    color: white;
-    padding: 10px 20px;
+    color: #fff;
     border: none;
-    border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
+    text-align: left;
+    border: 2px solid transparent;
+}
+
+.dropdown-button:focus {
+    border: 2px solid #ff84ff;
+}
+
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    max-height: 200px;
+    overflow-y: auto;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #444;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #222;
+    scrollbar-width: thin; 
+    scrollbar-color: #888 #f1f1f1;
+}
+
+    .dropdown-menu li {
+        padding: 10px;
+        background-color: #333;
+        color: white;
+        cursor: pointer;
+    }
+
+        .dropdown-menu li:hover {
+            background-color: #555;
+        }
+
+.dropdown.active .dropdown-menu {
+    display: block;
 }
 
 .input-text, .input-price, .input-surface {
     padding: 10px;
-    border: 1px solid #333;
     border-radius: 5px;
     background-color: #222;
     color: white;
     font-size: 16px;
     width: 100%;
     max-width: 200px;
+    border: 2px solid transparent;
 }
 input.input-text:focus, input.input-price:focus, input.input-surface:focus {
     border: 2px solid #ff84ff;
@@ -251,16 +296,17 @@ input.input-text:focus, input.input-price:focus, input.input-surface:focus {
 }
 
 .search-button {
-    background-color: #cc6acc;
+    background-color: #162938;
+    border: 1px solid white;
     color: white;
     padding: 10px 20px;
-    border: none;
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
     display: flex;
     align-items: center;
     font-weight: 600;
+    transition: all 0.3s ease;
 }
 
     .search-button i {
@@ -269,6 +315,9 @@ input.input-text:focus, input.input-price:focus, input.input-surface:focus {
 
     .search-button:hover {
         background-color: #ff84ff;
+        cursor: pointer;
+        color: black;
+        border: 1px solid #162938;
     }
 
 #drugieTlo {
@@ -279,10 +328,20 @@ input.input-text:focus, input.input-price:focus, input.input-surface:focus {
     position: relative;
 }
 
+.content-section {
+    display: none;
+}
+
+    .content-section.active {
+        display: flex;
+    }
+
 
 .promowane-ogloszenia {
     padding: 20px;
     background-color: #1e1e1e;
+    position: relative;
+    max-width: 100vw;
 }
     .promowane-ogloszenia a {
         color: #cc6acc;
@@ -299,7 +358,36 @@ input.input-text:focus, input.input-price:focus, input.input-surface:focus {
 
 .ogloszenia-container {
     display: flex;
+    overflow: hidden;
+    scroll-behavior: smooth;
     gap: 20px;
+    padding-left: 70px;
+    max-width: 100vw;
+}
+
+.icon-left-open, .icon-right-open {
+    font-size: 4rem;
+    color: #cc6acc;
+    cursor: pointer;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: sticky;
+}
+
+.arrow-left {
+    position: absolute;
+    left: 5px;
+    top: 50%;
+    z-index: 2;
+    transform: translateY(-55%);
+}
+
+.arrow-right {
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    z-index: 2;
+    transform: translateY(-55%);
 }
 
 .ogloszenie {
@@ -335,12 +423,14 @@ input.input-text:focus, input.input-price:focus, input.input-surface:focus {
 .imgClass
 {
     overflow: hidden;
+    max-height:300px;
 }
 
 .opis {
+    margin-top:10px;
     height:auto;
     position: relative;
-    padding: 5px;
+    padding: 10px;
     z-index: 10;
 }
 
@@ -404,7 +494,72 @@ input.input-text:focus, input.input-price:focus, input.input-surface:focus {
         font-size: 16px;
     }
 
+.promowane-inwestyjce {
+    padding: 20px;
+    background-color: #1e1e1e;
+    position: relative;
+    max-width: 100vw;
+}
 
+    .promowane-inwestyjce a {
+        color: #cc6acc;
+        text-decoration: underline;
+        text-decoration-color: #cc6acc;
+        margin-left: 10px;
+    }
 
+    .promowane-inwestyjce h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+.inwestycje-container {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    gap: 20px;
+    padding-left: 70px;
+    max-width: 100vw;
+}
+
+.inwestycje {
+    background-color: #2b2b2b;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    transition: transform .3s ease-in-out;
+}
+
+    .inwestycje:hover {
+        cursor: pointer;
+    }
+
+    .inwestycje img {
+        position: relative;
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        z-index: 1;
+        transition: all .3s ease-in-out;
+    }
+
+.opis {
+    height: auto;
+    position: relative;
+    padding: 5px;
+    z-index: 10;
+}
+
+    .opis h3 {
+        font-size: 18px;
+    }
+
+    .opis p {
+        font-size: 14px;
+        color: #ccc;
+    }
 
 

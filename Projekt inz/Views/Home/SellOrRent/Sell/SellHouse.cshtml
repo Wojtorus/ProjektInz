@@ -1,0 +1,223 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dodaj Ogłoszenie - Sprzedaż</title>
+    <link rel="stylesheet" href="~/css/SellOrRent/Sell/SellHouse.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Sprzedaż mieszkania</h1>
+        </header>
+
+        <form id="sellForm" class="form-container" oninput="updateProgress()">
+            <!-- Informacje podstawowe -->
+            <fieldset>
+                <legend>Informacje podstawowe</legend>
+                <label>Tytuł ogłoszenia <span class="required">*</span>
+                    <input type="text" name="area" required>
+                </label>
+                <label>Powierzchnia użytkowa (m²)
+                    <input type="number" name="usableArea">
+                </label>
+                <label>Cena <span class="required">*</span>
+                    <input type="number" name="price" required>
+                </label>
+                <label>Cena za m² <span class="required">*</span>
+                    <input type="number" name="pricePerMeter" required>
+                </label>
+                <label>Miejscowość <span class="required">*</span>
+                    <input type="text" name="location" required>
+                </label>
+                <label>Opis <span class="required">*</span>
+                    <textarea name="description" rows="4" required></textarea>
+                </label>
+            </fieldset>
+
+            <!-- Parametry mieszkania -->
+            <fieldset>
+                <legend>Parametry mieszkania</legend>
+                <label>Liczba pokoi
+                    <input type="number" name="rooms">
+                </label>
+                <label>Piętro
+                    <input type="number" name="floor">
+                </label>
+                <label>Liczba pięter w budynku
+                    <input type="number" name="totalFloors">
+                </label>
+                <label>Winda
+                    <select name="elevator">
+                        <option value="">Wybierz</option>
+                        <option value="yes">Tak</option>
+                        <option value="no">Nie</option>
+                    </select>
+                </label>
+                <label>Rok budowy
+                    <input type="number" name="yearBuilt">
+                </label>
+                <label>Stan mieszkania
+                    <select name="condition">
+                        <option value="">Wybierz</option>
+                        <option value="new">Nowe</option>
+                        <option value="good">Dobry</option>
+                        <option value="toRenovate">Do remontu</option>
+                    </select>
+                </label>
+                <label>Miejsce parkingowe
+                    <select name="parking">
+                        <option value="">Wybierz</option>
+                        <option value="yes">Tak</option>
+                        <option value="no">Nie</option>
+                    </select>
+                </label>
+                <label>Świadectwo energetyczne
+                    <select name="energyCertificate">
+                        <option value="">Wybierz</option>
+                        <option value="yes">Tak</option>
+                        <option value="no">Nie</option>
+                    </select>
+                </label>
+                <label>Balkon
+                    <select name="balcony">
+                        <option value="">Wybierz</option>
+                        <option value="yes">Tak</option>
+                        <option value="no">Nie</option>
+                    </select>
+                </label>
+                <label>Piwnica
+                    <select name="basement">
+                        <option value="">Wybierz</option>
+                        <option value="yes">Tak</option>
+                        <option value="no">Nie</option>
+                    </select>
+                </label>
+                <label>Ogródek
+                    <select name="garden">
+                        <option value="">Wybierz</option>
+                        <option value="yes">Tak</option>
+                        <option value="no">Nie</option>
+                    </select>
+                </label>
+                <label>Wyposażenie AGD
+                    <select name="appliances">
+                        <option value="">Wybierz</option>
+                        <option value="yes">Tak</option>
+                        <option value="no">Nie</option>
+                    </select>
+                </label>
+                <label>Umeblowane
+                    <select name="furnished">
+                        <option value="">Wybierz</option>
+                        <option value="yes">Tak</option>
+                        <option value="no">Nie</option>
+                    </select>
+                </label>
+            </fieldset>
+
+            <!-- Zdjęcia -->
+            <fieldset>
+                <legend>Zdjęcia</legend>
+                <div class="image-upload-grid">
+                    <label class="upload-box">
+                        <input type="file" name="images[]" multiple>
+                        <span>Dodaj zdjęcie</span>
+                    </label>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Bezpieczeństwo i okolica</legend>
+                <label>
+                    Bezpieczeństwo
+                    <select name="security">
+                        <option value="">Wybierz</option>
+                        <option value="monitoring">Monitoring</option>
+                        <option value="security">Ochrona</option>
+                    </select>
+                </label>
+                <label>
+                    Dostosowane dla osób niepełnosprawnych
+                    <select name="accessible">
+                        <option value="">Wybierz</option>
+                        <option value="yes">Tak</option>
+                        <option value="no">Nie</option>
+                    </select>
+                </label>
+                <label>
+                    Zabudowa w okolicy
+                    <select name="neighborhood">
+                        <option value="">Wybierz</option>
+                        <option value="urban">Miejska</option>
+                        <option value="suburban">Podmiejska</option>
+                        <option value="rural">Wiejska</option>
+                    </select>
+                </label>
+                <label>
+                    Głośność
+                    <select name="noiseLevel">
+                        <option value="">Wybierz</option>
+                        <option value="quiet">Cicha</option>
+                        <option value="moderate">Umiarkowana</option>
+                        <option value="noisy">Głośna</option>
+                    </select>
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Przyroda w okolicy</legend>
+                <div class="checkbox-group-grid">
+                    <label><input type="checkbox" name="natureNearby" value="park"> Park</label>
+                    <label><input type="checkbox" name="natureNearby" value="las"> Las</label>
+                    <label><input type="checkbox" name="natureNearby" value="jezioro"> Jezioro</label>
+                    <label><input type="checkbox" name="natureNearby" value="góry"> Góry</label>
+                    <label><input type="checkbox" name="natureNearby" value="morze"> Morze</label>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Dodatkowe informacje</legend>
+                <div class="checkbox-group">
+                    <label><input type="checkbox" name="additionalInfo" value="piwnica"> Piwnica</label>
+                    <label><input type="checkbox" name="additionalInfo" value="strych"> Strych</label>
+                    <label><input type="checkbox" name="additionalInfo" value="garaż"> Garaż</label>
+                    <label><input type="checkbox" name="additionalInfo" value="klimatyzacja"> Klimatyzacja</label>
+                    <label><input type="checkbox" name="additionalInfo" value="basen"> Basen</label>
+                </div>
+            </fieldset>
+
+            <!-- Media -->
+            <fieldset>
+                <legend>Media</legend>
+                <div class="checkbox-group">
+                    <label><input type="checkbox" name="media" value="woda"> Woda</label>
+                    <label><input type="checkbox" name="media" value="prąd"> Prąd</label>
+                    <label><input type="checkbox" name="media" value="gaz"> Gaz</label>
+                    <label><input type="checkbox" name="media" value="kanalizacja"> Kanalizacja</label>
+                    <label><input type="checkbox" name="media" value="internet"> Internet</label>
+                </div>
+            </fieldset>
+
+            <button type="submit">Zatwierdź ogłoszenie</button>
+        </form>
+    </div>
+
+    <script>
+        function updateProgress() {
+            const form = document.getElementById('sellForm');
+            const inputs = Array.from(form.querySelectorAll('input, textarea, select'));
+            const filled = inputs.filter(input => input.value.trim() !== '');
+            const percentage = Math.round((filled.length / inputs.length) * 100);
+
+            document.getElementById('progress-percentage').textContent = `${percentage}%`;
+        }
+
+    </script>
+</body>
+</html>

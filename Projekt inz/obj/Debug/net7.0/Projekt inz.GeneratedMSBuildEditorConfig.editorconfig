@@ -28,6 +28,66 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Wojtek/source/repos/Projekt inz/Projekt inz/Views/Home/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Wojtek/source/repos/Projekt inz/Projekt inz/Views/Home/SellOrRent/Rent/RentFlat.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZWxsT3JSZW50XFJlbnRcUmVudEZsYXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Wojtek/source/repos/Projekt inz/Projekt inz/Views/Home/SellOrRent/Rent/RentGarage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZWxsT3JSZW50XFJlbnRcUmVudEdhcmFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Wojtek/source/repos/Projekt inz/Projekt inz/Views/Home/SellOrRent/Rent/RentHall.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZWxsT3JSZW50XFJlbnRcUmVudEhhbGwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Wojtek/source/repos/Projekt inz/Projekt inz/Views/Home/SellOrRent/Rent/RentHouse.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZWxsT3JSZW50XFJlbnRcUmVudEhvdXNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Wojtek/source/repos/Projekt inz/Projekt inz/Views/Home/SellOrRent/Rent/RentLocal.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZWxsT3JSZW50XFJlbnRcUmVudExvY2FsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Wojtek/source/repos/Projekt inz/Projekt inz/Views/Home/SellOrRent/Rent/RentPlots.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZWxsT3JSZW50XFJlbnRcUmVudFBsb3RzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Wojtek/source/repos/Projekt inz/Projekt inz/Views/Home/SellOrRent/Rent/RentRoom.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZWxsT3JSZW50XFJlbnRcUmVudFJvb20uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Wojtek/source/repos/Projekt inz/Projekt inz/Views/Home/SellOrRent/SellOrRent.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZWxsT3JSZW50XFNlbGxPclJlbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Wojtek/source/repos/Projekt inz/Projekt inz/Views/Home/SellOrRent/Sell/SellFlat.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZWxsT3JSZW50XFNlbGxcU2VsbEZsYXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Wojtek/source/repos/Projekt inz/Projekt inz/Views/Home/SellOrRent/Sell/SellGarage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZWxsT3JSZW50XFNlbGxcU2VsbEdhcmFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Wojtek/source/repos/Projekt inz/Projekt inz/Views/Home/SellOrRent/Sell/SellHall.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZWxsT3JSZW50XFNlbGxcU2VsbEhhbGwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Wojtek/source/repos/Projekt inz/Projekt inz/Views/Home/SellOrRent/Sell/SellHouse.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZWxsT3JSZW50XFNlbGxcU2VsbEhvdXNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Wojtek/source/repos/Projekt inz/Projekt inz/Views/Home/SellOrRent/Sell/SellLocal.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZWxsT3JSZW50XFNlbGxcU2VsbExvY2FsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Wojtek/source/repos/Projekt inz/Projekt inz/Views/Home/SellOrRent/Sell/SellPlots.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZWxsT3JSZW50XFNlbGxcU2VsbFBsb3RzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Wojtek/source/repos/Projekt inz/Projekt inz/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

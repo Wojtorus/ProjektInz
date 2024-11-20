@@ -1,0 +1,82 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rejestracja - Portal Nieruchomościowy</title>
+    <link rel="stylesheet" href="~/css/Register.css" />
+</head>
+<body>
+    <div id="container">
+        <div id="form-wrapper">
+            <header>
+                <a href="#" class="logo">Logo</a>
+            </header>
+
+            <div id="form-content">
+                <h2>Utwórz swoje konto</h2>
+
+                <div class="role-selection">
+                    <button class="tab active" onclick="selectRole('PrivatePerson')">Osoba fizyczna</button>
+                    <button class="tab" onclick="selectRole('EstateAgency')">Biuro nieruchomości</button>
+                    <button class="tab" onclick="selectRole('Developer')">Deweloper</button>
+                </div>
+
+                <form action="/Account/Register" method="post">
+                    <input type="hidden" name="Role" id="selectedRole" value="PrivatePerson" />
+
+                    <div id="privateFields" class="form-section active">
+                        <input type="text" placeholder="Imię" name="FirstName" required />
+                        <input type="text" placeholder="Nazwisko" name="LastName" required />
+                        <input type="email" placeholder="E-mail" name="Email" required />
+                        <input type="tel" placeholder="Numer telefonu" name="PhoneNumber" />
+                        <input type="password" placeholder="Hasło" name="Password" required />
+                    </div>
+
+                    <div id="estateAgencyFields" class="form-section">
+                        <input type="text" placeholder="Nazwa firmy" name="CompanyName" required />
+                        <input type="text" placeholder="Adres" name="Address" required />
+                        <input type="email" placeholder="E-mail" name="Email" required />
+                        <input type="password" placeholder="Hasło" name="Password" required />
+                    </div>
+
+                    <div id="developerFields" class="form-section">
+                        <input type="text" placeholder="Nazwa dewelopera" name="DeveloperName" required />
+                        <input type="email" placeholder="E-mail" name="Email" required />
+                        <input type="tel" placeholder="Numer telefonu" name="PhoneNumber" />
+                        <input type="password" placeholder="Hasło" name="Password" required />
+                    </div>
+
+                    <button type="submit" class="submit-button">Zarejestruj się</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function selectRole(role) {
+            document.getElementById('selectedRole').value = role;
+
+            const sections = document.querySelectorAll('.form-section');
+            sections.forEach(section => section.classList.remove('active'));
+
+            if (role === 'PrivatePerson') {
+                document.getElementById('privateFields').classList.add('active');
+            } else if (role === 'EstateAgency') {
+                document.getElementById('estateAgencyFields').classList.add('active');
+            } else if (role === 'Developer') {
+                document.getElementById('developerFields').classList.add('active');
+            }
+
+            const tabs = document.querySelectorAll('.tab');
+            tabs.forEach(tab => tab.classList.remove('active'));
+            document.querySelector(`[onclick="selectRole('${role}')"]`).classList.add('active');
+        }
+    </script>
+</body>
+</html>
