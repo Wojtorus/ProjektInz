@@ -38,12 +38,12 @@
         <div class="property-types">
             <h2>Wybierz rodzaj nieruchomości</h2>
             <div id="sellOptions" class="options-grid active">
-                <div class="option-item" onclick="window.location.href='@Url.Action("SellFlat", "Home")'"><p>Mieszkania</p></div>
-                <div class="option-item" onclick="window.location.href='@Url.Action("SellHouse", "Home")'"><p>Domy</p></div>
-                <div class="option-item" onclick="window.location.href='@Url.Action("SellPlots", "Home")'"><p>Działki</p></div>
-                <div class="option-item" onclick="window.location.href='@Url.Action("SellLocal", "Home")'"><p>Lokale użytkowe</p></div>
-                <div class="option-item" onclick="window.location.href='@Url.Action("SellHall", "Home")'"><p>Hale i magazyny</p></div>
-                <div class="option-item" onclick="window.location.href='@Url.Action("SellGarage", "Home")'"><p>Garaże</p></div>
+                <div class="option-item" onclick="window.location.href='@Url.Action("Sell", "Home")'"><p>Mieszkania</p></div>
+                <div class="option-item" onclick="window.location.href='@Url.Action("Sell", "Home")'"><p>Domy</p></div>
+                <div class="option-item" onclick="window.location.href='@Url.Action("Sell", "Home")'"><p>Działki</p></div>
+                <div class="option-item" onclick="window.location.href='@Url.Action("Sell", "Home")'"><p>Lokale użytkowe</p></div>
+                <div class="option-item" onclick="window.location.href='@Url.Action("Sell", "Home")'"><p>Hale i magazyny</p></div>
+                <div class="option-item" onclick="window.location.href='@Url.Action("Sell", "Home")'"><p>Garaże</p></div>
             </div>
             <div id="rentOptions" class="options-grid">
                 <div class="option-item" onclick="window.location.href='@Url.Action("RentFlat", "Home")'"><p>Mieszkania</p></div>
@@ -71,8 +71,6 @@
                 rentOptions.classList.add("active");
             }
         }
-
-        // Initialize to show the correct options
         togglePropertyType();
     </script>
 </body>

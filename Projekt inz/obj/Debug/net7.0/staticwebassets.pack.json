@@ -2,7 +2,11 @@
   "Files": [
     {
       "Id": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Projekt inz.bundle.scp.css",
-      "PackagePath": "staticwebassets\\Projekt inz.bundle.scp.css"
+      "PackagePath": "staticwebassets\\Projekt inz.30tkn1var7.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\Dane\\JavaScript.js",
+      "PackagePath": "staticwebassets\\Dane\\JavaScript.js"
     },
     {
       "Id": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\Dane\\Nieruchomosci.js",
@@ -19,6 +23,10 @@
     {
       "Id": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\css\\Register.css",
       "PackagePath": "staticwebassets\\css\\Register.css"
+    },
+    {
+      "Id": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\css\\ResultPage.css",
+      "PackagePath": "staticwebassets\\css\\ResultPage.css"
     },
     {
       "Id": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\css\\SellOrRent\\Rent\\RentFlat.css",
@@ -53,28 +61,16 @@
       "PackagePath": "staticwebassets\\css\\SellOrRent\\SellOrRent.css"
     },
     {
-      "Id": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\css\\SellOrRent\\Sell\\SellFlat.css",
-      "PackagePath": "staticwebassets\\css\\SellOrRent\\Sell\\SellFlat.css"
+      "Id": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\css\\SellOrRent\\Sell\\Sell.css",
+      "PackagePath": "staticwebassets\\css\\SellOrRent\\Sell\\Sell.css"
     },
     {
-      "Id": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\css\\SellOrRent\\Sell\\SellGarage.css",
-      "PackagePath": "staticwebassets\\css\\SellOrRent\\Sell\\SellGarage.css"
+      "Id": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\css\\User\\UserAccount.css",
+      "PackagePath": "staticwebassets\\css\\User\\UserAccount.css"
     },
     {
-      "Id": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\css\\SellOrRent\\Sell\\SellHall.css",
-      "PackagePath": "staticwebassets\\css\\SellOrRent\\Sell\\SellHall.css"
-    },
-    {
-      "Id": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\css\\SellOrRent\\Sell\\SellHouse.css",
-      "PackagePath": "staticwebassets\\css\\SellOrRent\\Sell\\SellHouse.css"
-    },
-    {
-      "Id": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\css\\SellOrRent\\Sell\\SellLocal.css",
-      "PackagePath": "staticwebassets\\css\\SellOrRent\\Sell\\SellLocal.css"
-    },
-    {
-      "Id": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\css\\SellOrRent\\Sell\\SellPlots.css",
-      "PackagePath": "staticwebassets\\css\\SellOrRent\\Sell\\SellPlots.css"
+      "Id": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\css\\User\\UserSetting.css",
+      "PackagePath": "staticwebassets\\css\\User\\UserSetting.css"
     },
     {
       "Id": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\css\\font\\LICENSE.txt",
@@ -149,6 +145,10 @@
       "PackagePath": "staticwebassets\\img\\Gdansk.jpeg"
     },
     {
+      "Id": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\img\\Gdansk.jpg",
+      "PackagePath": "staticwebassets\\img\\Gdansk.jpg"
+    },
+    {
       "Id": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\img\\ImgLogin.jpg",
       "PackagePath": "staticwebassets\\img\\ImgLogin.jpg"
     },
@@ -157,8 +157,36 @@
       "PackagePath": "staticwebassets\\img\\Invest.jpg"
     },
     {
+      "Id": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\img\\Katowice.jpg",
+      "PackagePath": "staticwebassets\\img\\Katowice.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\img\\Krakow.jpg",
+      "PackagePath": "staticwebassets\\img\\Krakow.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\img\\Lodz.jpg",
+      "PackagePath": "staticwebassets\\img\\Lodz.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\img\\Lublin.jpg",
+      "PackagePath": "staticwebassets\\img\\Lublin.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\img\\Poznan.jpg",
+      "PackagePath": "staticwebassets\\img\\Poznan.jpg"
+    },
+    {
       "Id": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\img\\ProbaPrzyciemnienie1.jpg",
       "PackagePath": "staticwebassets\\img\\ProbaPrzyciemnienie1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\img\\Warszawa.jpg",
+      "PackagePath": "staticwebassets\\img\\Warszawa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\img\\Wroclaw.jpg",
+      "PackagePath": "staticwebassets\\img\\Wroclaw.jpg"
     },
     {
       "Id": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\js\\HomePage.js",
@@ -391,6 +419,10 @@
     {
       "Id": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Projekt inz.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Projekt inz.Microsoft.AspNetCore.StaticWebAssets.props",

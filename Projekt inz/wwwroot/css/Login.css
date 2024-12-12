@@ -53,6 +53,7 @@ header {
     header .logo {
         font-size: 26px;
         font-weight: 700;
+        color: #ff84ff;
     }
 
 #rightNavlist {
@@ -69,18 +70,19 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 3px solid gold;
+    border: 3px solid #ff84ff;
     border-radius: 5px;
     cursor: pointer;
     height: 40px;
-    padding: 20px;
+    width: auto;
+    padding: 20px 20px;
     white-space: nowrap;
-    transition: all ease-in-out .5s;
+    transition: all ease .5s;
 }
 
     #WstawOgloszenie:hover {
-        background-color: darkgoldenrod;
-        color: black;
+        background-color: #ff84ff;
+        color: #000;
     }
 
 #Menu {
@@ -174,6 +176,7 @@ input[type=submit] {
     outline: none;
     border-radius: 6px;
     font-size: 16px;
+    font-weight: bold;
     margin-top: 20px;
     cursor: pointer;
     transition: background-color 0.3s ease;

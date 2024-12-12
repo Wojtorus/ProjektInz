@@ -23,13 +23,11 @@ namespace Projekt_inz.Controllers
             return View();
         }
 
-        // Akcja Login
         public IActionResult Login()
         {
             return View();
         }
 
-        // Akcja rejestracja
         public IActionResult Register()
         {
             return View();
@@ -40,30 +38,9 @@ namespace Projekt_inz.Controllers
             return View("SellOrRent/SellOrRent");
         }
 
-        public IActionResult SellHouse()
+        public IActionResult Sell()
         {
-            return View("SellOrRent/Sell/SellHouse");
-        }
-        public IActionResult SellFlat()
-        {
-            return View("SellOrRent/Sell/SellFlat");
-        }
-        public IActionResult SellGarage()
-        {
-            return View("SellOrRent/Sell/SellGarage");
-        }
-        public IActionResult SellPlots()
-        {
-            return View("SellOrRent/Sell/SellPlots");
-        }
-        public IActionResult SellLocal()
-        {
-            return View("SellOrRent/Sell/SellLocal");
-        }
-
-        public IActionResult SellHall()
-        {
-            return View("SellOrRent/Sell/SellHall");
+            return View("SellOrRent/Sell/Sell");
         }
 
         public IActionResult RentFlat()
@@ -89,6 +66,44 @@ namespace Projekt_inz.Controllers
         public IActionResult RentGarage()
         {
             return View("SellOrRent/Rent/RentGarage");
+        }
+
+        public IActionResult ResultPage()
+        {
+            return View();
+        }
+
+        public IActionResult SearchResults(string location, string propertyType, string saleType, decimal? priceMin, decimal? priceMax, decimal? surfaceMin, decimal? surfaceMax)
+        {
+            // Zastąpienie tej zmiennej rzeczywistymi danymi nieruchomości
+            var nieruchomosci = new List<Nieruchomosc>
+        {
+            new Nieruchomosc { adres = "ul. Spitalna, Kołobrzeg", type = "Mieszkania", saleType = "Sprzedaż", cena = 250000, surface = 50 },
+            new Nieruchomosc { adres = "ul. Główna, Warszawa", type = "Domy", saleType = "Wynajem", cena = 3500, surface = 120 },
+            new Nieruchomosc { adres = "ul. Molyn, Kołobrzeg", type = "Mieszkania", saleType = "Sprzedaż", cena = 259890, surface = 50 },
+            new Nieruchomosc { adres = "kjfvndijn", type = "Diałki", saleType = "Wynajem", cena = 35657600, surface = 120 },
+            // Dodaj inne przykłady danych nieruchomości
+        };
+
+            // Filtrowanie danych nieruchomości na podstawie parametrów przesłanych z formularza
+            var filteredProperties = nieruchomosci.Where(p =>
+                (!string.IsNullOrEmpty(propertyType) && p.type.Contains(propertyType)) &&
+                (priceMin.HasValue && p.cena >= priceMin) &&
+                (priceMax.HasValue && p.cena <= priceMax)
+            ).ToList();
+
+            // Przekazujemy przefiltrowane wyniki do widoku
+            return View("ResultPage", filteredProperties);
+        }
+
+        public IActionResult UserAccount()
+        {
+            return View("User/UserAccount");
+        }
+
+        public IActionResult UserSetting()
+        {
+            return View("User/UserSetting");
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

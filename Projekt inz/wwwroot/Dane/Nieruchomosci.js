@@ -1,5 +1,10 @@
 ﻿export const nieruchomosci = [
     {
+        img: "../img/Dom1.webp",
+        cena: 456577,
+        adres: "ul.Spitalna, Kołobrzeg..."
+    },
+    {
         img: "../img/Dom1.webp", 
         cena: 186250,
         adres: "Poznań, Gwarna 5"

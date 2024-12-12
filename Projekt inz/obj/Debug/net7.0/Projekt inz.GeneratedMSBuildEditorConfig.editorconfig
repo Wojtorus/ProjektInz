@@ -10,11 +10,15 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Projekt_inz
 build_property.RootNamespace = Projekt_inz
 build_property.ProjectDir = C:\Users\Wojtek\source\repos\Projekt inz\Projekt inz\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
 build_property.MSBuildProjectDirectory = C:\Users\Wojtek\source\repos\Projekt inz\Projekt inz
 build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 7.0
+build_property.EnableCodeStyleSeverity = 
 
 [C:/Users/Wojtek/source/repos/Projekt inz/Projekt inz/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
@@ -30,6 +34,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Wojtek/source/repos/Projekt inz/Projekt inz/Views/Home/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Wojtek/source/repos/Projekt inz/Projekt inz/Views/Home/ResultPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZXN1bHRQYWdlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Wojtek/source/repos/Projekt inz/Projekt inz/Views/Home/SellOrRent/Rent/RentFlat.cshtml]
@@ -64,28 +72,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZWxsT3JSZW50XFNlbGxPclJlbnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Wojtek/source/repos/Projekt inz/Projekt inz/Views/Home/SellOrRent/Sell/SellFlat.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZWxsT3JSZW50XFNlbGxcU2VsbEZsYXQuY3NodG1s
+[C:/Users/Wojtek/source/repos/Projekt inz/Projekt inz/Views/Home/SellOrRent/Sell/Sell.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZWxsT3JSZW50XFNlbGxcU2VsbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Wojtek/source/repos/Projekt inz/Projekt inz/Views/Home/SellOrRent/Sell/SellGarage.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZWxsT3JSZW50XFNlbGxcU2VsbEdhcmFnZS5jc2h0bWw=
+[C:/Users/Wojtek/source/repos/Projekt inz/Projekt inz/Views/Home/User/UserAccount.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxVc2VyXFVzZXJBY2NvdW50LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Wojtek/source/repos/Projekt inz/Projekt inz/Views/Home/SellOrRent/Sell/SellHall.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZWxsT3JSZW50XFNlbGxcU2VsbEhhbGwuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Wojtek/source/repos/Projekt inz/Projekt inz/Views/Home/SellOrRent/Sell/SellHouse.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZWxsT3JSZW50XFNlbGxcU2VsbEhvdXNlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Wojtek/source/repos/Projekt inz/Projekt inz/Views/Home/SellOrRent/Sell/SellLocal.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZWxsT3JSZW50XFNlbGxcU2VsbExvY2FsLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Wojtek/source/repos/Projekt inz/Projekt inz/Views/Home/SellOrRent/Sell/SellPlots.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZWxsT3JSZW50XFNlbGxcU2VsbFBsb3RzLmNzaHRtbA==
+[C:/Users/Wojtek/source/repos/Projekt inz/Projekt inz/Views/Home/User/UserSetting.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxVc2VyXFVzZXJTZXR0aW5nLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Wojtek/source/repos/Projekt inz/Projekt inz/Views/Shared/Error.cshtml]

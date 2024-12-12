@@ -60,7 +60,7 @@ header .logo {
 
 .tab {
     flex: 1;
-    padding: 12px 0;
+    padding: 12px 5px;
     background-color: #2b2b2b;
     color: #ffffff;
     border: none;
@@ -71,7 +71,7 @@ header .logo {
 }
 
     .tab.active {
-        background-color: #ff84ff;
+        background-color: #9b59b6;
         color: #ffffff;
     }
 
@@ -100,6 +100,15 @@ input[type="password"] {
     margin-top: 10px;
 }
 
+    input[type="text"]:focus,
+    input[type="email"]:focus,
+    input[type="tel"]:focus,
+    input[type="password"]:focus {
+        outline: none;
+        border: 1px solid #ff84ff;
+        box-shadow: 0 0 5px rgba(138, 138, 255, 0.5);
+    }
+
 input::placeholder {
     color: #bbb;
 }
@@ -119,5 +128,6 @@ input::placeholder {
 }
 
     .submit-button:hover {
-        background-color: #d973d7;
+        background-color: #ff84ff;
+        color: black;
     }

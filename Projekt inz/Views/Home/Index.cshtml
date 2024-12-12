@@ -12,19 +12,19 @@
 <body>
     <div id="container">
         <div id="tlo">
-             <header>
-                <a href ="#" class="logo">Logo</a>
+            <header>
+                <a href="#" class="logo">Logo</a>
                 <ul class="navlist">
                     <li><a href="#" class="active">Home</a></li>
                     <li><a href="#">About</a></li>
-                    <li><a href="#" >Home</a></li>
+                    <li><a href="#">Home</a></li>
                     <li><a href="#">About</a></li>
                 </ul>
                 <div id="rightNavlist">
-                    <div id="mojeKonto"><a href="@Url.Action("Login", "Home")"><i class="icon-user"></i>Moje konto</a></div>
+                    <div id="mojeKonto"><a href="@Url.Action("Login", "Home")"><i class="demo-icon icon-user" style="font-size:22px;"></i>Moje konto</a></div>
                     <a href="@Url.Action("SellOrRent", "Home")"><div id="WstawOgloszenie">Dodaj ogłoszenie</div></a>
                 </div>
-             </header>
+            </header>
 
             <div id="welcomeText">
                 <h1 id="typingText"></h1>
@@ -36,130 +36,125 @@
                     <button id="developerTab" class="tab">Oferty deweloperów</button>
                 </div>
 
-                <div id="search-section" class="content-section active">
-                    <div class="form-row">
-                        <div class="dropdown">
-                            <button class="dropdown-button">Mieszkania</button>
-                            <ul class="dropdown-menu">
-                                <li>Mieszkania</li>
-                                <li>Kawalerki</li>
-                                <li>Domy</li>
-                                <li>Inwestycje</li>
-                                <li>Pokoje</li>
-                                <li>Działki</li>
-                                <li>Lokale użytkowe</li>
-                                <li>Hale i magazyny</li>
-                                <li>Garaże</li>
-                            </ul>
+                <form method="GET" action="@Url.Action("SearchResults", "Home")" id="searchForm">
+                    <div id="search-section" class="content-section active">
+                        <div class="form-row">
+                            <div class="dropdown">
+                                <button type="button" class="dropdown-button">Mieszkania</button>
+                                <ul class="dropdown-menu">
+                                    <li>Mieszkania</li>
+                                    <li>Kawalerki</li>
+                                    <li>Domy</li>
+                                    <li>Inwestycje</li>
+                                    <li>Pokoje</li>
+                                    <li>Działki</li>
+                                    <li>Lokale użytkowe</li>
+                                    <li>Hale i magazyny</li>
+                                    <li>Garaże</li>
+                                </ul>
+                            </div>
+                            <div class="dropdown">
+                                <button type="button" class="dropdown-button">Sprzedaż</button>
+                                <ul class="dropdown-menu">
+                                    <li>Sprzedaż</li>
+                                    <li>Wynajem</li>
+                                </ul>
+                            </div>
+                            <input type="text" name="location" class="input-text" placeholder="Wpisz lokalizację">
+                            <div class="dropdown">
+                                <button type="button" class="dropdown-button">+ 0km</button>
+                                <ul class="dropdown-menu">
+                                    <li>+ 5km</li>
+                                    <li>+ 10km</li>
+                                    <li>+ 15km</li>
+                                    <li>+ 20km</li>
+                                    <li>+ 30km</li>
+                                    <li>+ 40km</li>
+                                    <li>+ 50km</li>
+                                </ul>
+                            </div>
                         </div>
-                        <div class="dropdown">
-                            <button class="dropdown-button">Sprzedaż</button>
-                            <ul class="dropdown-menu">
-                                <li>Sprzedaż</li>
-                                <li>Wynajem</li>
-                            </ul>
-                        </div>
-                        <input type="text" class="input-text" placeholder="Wpisz lokalizację">
-                        <div class="dropdown">
-                            <button class="dropdown-button">+ 0km</button>
-                            <ul class="dropdown-menu">
-                                <li>+ 5km</li>
-                                <li>+ 10km</li>
-                                <li>+ 15km</li>
-                                <li>+ 20km</li>
-                                <li>+ 30km</li>
-                                <li>+ 40km</li>
-                                <li>+ 50km</li>
-                            </ul>
-                        </div>
-                    </div>
 
-                    <div class="form-row">
-                        <div class="price">
-                            <span>Cena</span>
-                            <input type="text" placeholder="od" class="input-price"> zł
-                            <input type="text" placeholder="do" class="input-price"> zł
+                        <div class="form-row">
+                            <div class="price">
+                                <span>Cena</span>
+                                <input type="text" name="priceMin" placeholder="od" class="input-price"> zł
+                                <input type="text" name="priceMax" placeholder="do" class="input-price"> zł
+                            </div>
+                            <div class="surface">
+                                <span>Powierzchnia</span>
+                                <input type="text" name="surfaceMin" placeholder="od" class="input-surface"> m²
+                                <input type="text" name="surfaceMax" placeholder="do" class="input-surface"> m²
+                            </div>
+                            <button type="submit" class="search-button">Wyszukaj</button>
                         </div>
-                        <div class="surface">
-                            <span>Powierzchnia</span>
-                            <input type="text" placeholder="od" class="input-surface"> m²
-                            <input type="text" placeholder="do" class="input-surface"> m²
-                        </div>
-                        <button class="search-button"><i class="fa fa-search"></i> Wyszukaj</button>
                     </div>
-                </div>
+                </form>
 
-                <div id="developer-section" class="content-section">
-                    <div class="form-row">
-                        <div class="dropdown">
-                            <button class="dropdown-button">Inwestycje</button>
-                            <ul class="dropdown-menu">
-                                <li>Mieszkania</li>
-                                <li>Kawalerki</li>
-                                <li>Domy</li>
-                                <li>Inwestycje</li>
-                                <li>Pokoje</li>
-                                <li>Działki</li>
-                                <li>Lokale użytkowe</li>
-                                <li>Hale i magazyny</li>
-                                <li>Garaże</li>
-                            </ul>
+                <form method="GET" action="@Url.Action("SearchResults", "Home")" id="developerForm">
+                    <div id="developer-section" class="content-section">
+                        <div class="form-row">
+                            <div class="dropdown">
+                                <button type="button" class="dropdown-button">Inwestycje</button>
+                                <ul class="dropdown-menu">
+                                    <li>Mieszkania</li>
+                                    <li>Kawalerki</li>
+                                    <li>Domy</li>
+                                    <li>Inwestycje</li>
+                                    <li>Pokoje</li>
+                                    <li>Działki</li>
+                                    <li>Lokale użytkowe</li>
+                                    <li>Hale i magazyny</li>
+                                    <li>Garaże</li>
+                                </ul>
+                            </div>
+                            <div class="dropdown">
+                                <button type="button" class="dropdown-button">Dowolny</button>
+                                <ul class="dropdown-menu">
+                                    <li>Mieszkania</li>
+                                    <li>Domy</li>
+                                    <li>Lokale użytkowe</li>
+                                </ul>
+                            </div>
+                            <input type="text" name="location" class="input-text" placeholder="Wpisz lokalizację">
+                            <div class="dropdown">
+                                <button type="button" class="dropdown-button">+ 0km</button>
+                                <ul class="dropdown-menu">
+                                    <li>+ 5km</li>
+                                    <li>+ 10km</li>
+                                    <li>+ 15km</li>
+                                    <li>+ 20km</li>
+                                    <li>+ 30km</li>
+                                    <li>+ 40km</li>
+                                    <li>+ 50km</li>
+                                </ul>
+                            </div>
                         </div>
-                        <div class="dropdown">
-                            <button class="dropdown-button">Dowolny</button>
-                            <ul class="dropdown-menu">
-                                <li>Mieszkania</li>
-                                <li>Domy</li>
-                                <li>Lokale użytkowe</li>
-                            </ul>
-                        </div>
-                        <input type="text" class="input-text" placeholder="Wpisz lokalizację">
-                        <div class="dropdown">
-                            <button class="dropdown-button">+ 0km</button>
-                            <ul class="dropdown-menu">
-                                <li>+ 5km</li>
-                                <li>+ 10km</li>
-                                <li>+ 15km</li>
-                                <li>+ 20km</li>
-                                <li>+ 30km</li>
-                                <li>+ 40km</li>
-                                <li>+ 50km</li>
-                            </ul>
-                        </div>
-                    </div>
 
-                    <div class="form-row">
-                        <div class="price">
-                            <span>Cena</span>
-                            <input type="text" placeholder="od" class="input-price"> zł
-                            <input type="text" placeholder="do" class="input-price"> zł
+                        <div class="form-row">
+                            <div class="price">
+                                <span>Cena</span>
+                                <input type="text" name="priceMin" placeholder="od" class="input-price"> zł
+                                <input type="text" name="priceMax" placeholder="do" class="input-price"> zł
+                            </div>
+                            <div class="surface">
+                                <span>Powierzchnia</span>
+                                <input type="text" name="surfaceMin" placeholder="od" class="input-surface"> m²
+                                <input type="text" name="surfaceMax" placeholder="do" class="input-surface"> m²
+                            </div>
+                            <button type="submit" class="search-button">Wyszukaj</button>
                         </div>
-                        <div class="surface">
-                            <span>Powierzchnia</span>
-                            <input type="text" placeholder="od" class="input-surface"> m²
-                            <input type="text" placeholder="do" class="input-surface"> m²
-                        </div>
-                        <button class="search-button"><i class="fa fa-search"></i> Wyszukaj</button>
                     </div>
-                </div>
+                </form>
+
             </div>
         </div>
         <div id="drugieTlo">
             <div id="searchContent" class="content-section active">
                 <div class="promowane-ogloszenia">
-                    <h2>Promowane ogłoszenia <a href="#">Zobacz Wszystkie</a></h2>
+                    <h2 id="promowaneOgloszenia">Promowane ogłoszenia <a href="#">Zobacz Wszystkie</a></h2>
                     <div class="arrow-left"><i class="icon-left-open"></i></div>
                     <div class="ogloszenia-container">
-                        <a href="#" style="text-decoration: none;">
-                            <div class="ogloszenie">
-                                <div class="imgClass">
-                                    <img src="~/img/Dom1.webp" alt="Ogłoszenie 1">
-                                </div>
-                                <div class="opis">
-                                    <h3 class="cena">Zapytaj o cenę</h3>
-                                    <p class="miejsce">ul. Spitalna, Kołobrzeg...</p>
-                                </div>
-                             </div></a>
                     </div>
                     <div class="arrow-right"><i class="icon-right-open"></i></div>
                 </div>
@@ -167,8 +162,8 @@
                 <div class="rodzaje-nieruchomosci">
                     <h2>Rodzaje nieruchomości</h2>
                     <div class="rodzaje-container">
-                        <button class="rodzaj-tab active">Na sprzedaż</button>
-                        <button class="rodzaj-tab">Na wynajem</button>
+                        <button id="sell" class="rodzaj-tab active">Na sprzedaż</button>
+                        <button id="rent" class="rodzaj-tab">Na wynajem</button>
                     </div>
                     <div class="nieruchomosci-grid">
                         <div class="nieruchomosc">
@@ -179,13 +174,21 @@
                             <img src="~/img/Dom1.webp" alt="Dom">
                             <p>Domy</p>
                         </div>
+                        <div class="nieruchomosc">
+                            <img src="~/img/Dom1.webp" alt="Mieszkanie">
+                            <p>Działki</p>
+                        </div>
+                        <div class="nieruchomosc">
+                            <img src="~/img/Dom1.webp" alt="Mieszkanie">
+                            <p>Lokale użytkowe</p>
+                        </div>
                     </div>
                 </div>
             </div>
 
             <div id="developerContent" class="content-section">
                 <div class="promowane-inwestyjce">
-                    <h2>Promowane Inwestycje <a href="#">Zobacz Wszystkie</a></h2>
+                    <h2 id="promowaneInwestycje">Promowane Inwestycje <a href="#">Zobacz Wszystkie</a></h2>
                     <div class="inwestycje-container">
                         <a href="#" style="text-decoration: none;">
                             <div class="inwestycje">
@@ -194,30 +197,165 @@
                                 </div>
                                 <div class="opis">
                                     <p class="miejsce">Gdańsk, Ujeścisko-Łostowice 22</p>
-                                    <h2 class="cena">79 zł/m^2</h2> 
+                                    <h2 class="cena">79 zł/m^2</h2>
                                     <p class="status">Status: w budowie</p>
                                     <p class="pokoje">liczba pokoi: od 1 do 3</p>
-                                    <p class="nieruchomosci">nieruchomosci: 5</p>                                   
+                                    <p class="nieruchomosci">nieruchomosci: 5</p>
                                 </div>
                             </div>
                         </a>
 
                         <a href="#" style="text-decoration: none;">
                             <div class="inwestycje">
+                                <div class="imgClass">
+                                    <img src="~/img/Invest.jpg" alt="Ogłoszenie 2">
+                                </div>
+                                <div class="opis">
+                                    <p class="miejsce">Gdańsk, Ujeścisko-Łostowice 22</p>
+                                    <h2 class="cena">79 zł/m^2</h2>
+                                    <p class="status">Status: w budowie</p>
+                                    <p class="pokoje">liczba pokoi: od 1 do 3</p>
+                                    <p class="nieruchomosci">nieruchomosci: 5</p>
+                                </div>
                             </div>
                         </a>
-                    
-                         <a href="#" style="text-decoration: none;">
+
+                        <a href="#" style="text-decoration: none;">
                             <div class="inwestycje">
+                                <div class="imgClass">
+                                    <img src="~/img/Invest.jpg" alt="Ogłoszenie 2">
+                                </div>
+                                <div class="opis">
+                                    <p class="miejsce">Gdańsk, Ujeścisko-Łostowice 22</p>
+                                    <h2 class="cena">79 zł/m^2</h2>
+                                    <p class="status">Status: w budowie</p>
+                                    <p class="pokoje">liczba pokoi: od 1 do 3</p>
+                                    <p class="nieruchomosci">nieruchomosci: 5</p>
+                                </div>
                             </div>
-                         </a>
-                   </div>
+                        </a>
+                        <a href="#" style="text-decoration: none;">
+                            <div class="inwestycje">
+                                <div class="imgClass">
+                                    <img src="~/img/Invest.jpg" alt="Ogłoszenie 2">
+                                </div>
+                                <div class="opis">
+                                    <p class="miejsce">Gdańsk, Ujeścisko-Łostowice 22</p>
+                                    <h2 class="cena">79 zł/m^2</h2>
+                                    <p class="status">Status: w budowie</p>
+                                    <p class="pokoje">liczba pokoi: od 1 do 3</p>
+                                    <p class="nieruchomosci">nieruchomosci: 5</p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" style="text-decoration: none;">
+                            <div class="inwestycje">
+                                <div class="imgClass">
+                                    <img src="~/img/Invest.jpg" alt="Ogłoszenie 2">
+                                </div>
+                                <div class="opis">
+                                    <p class="miejsce">Gdańsk, Ujeścisko-Łostowice 22</p>
+                                    <h2 class="cena">79 zł/m^2</h2>
+                                    <p class="status">Status: w budowie</p>
+                                    <p class="pokoje">liczba pokoi: od 1 do 3</p>
+                                    <p class="nieruchomosci">nieruchomosci: 5</p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" style="text-decoration: none;">
+                            <div class="inwestycje">
+                                <div class="imgClass">
+                                    <img src="~/img/Invest.jpg" alt="Ogłoszenie 2">
+                                </div>
+                                <div class="opis">
+                                    <p class="miejsce">Gdańsk, Ujeścisko-Łostowice 22</p>
+                                    <h2 class="cena">79 zł/m^2</h2>
+                                    <p class="status">Status: w budowie</p>
+                                    <p class="pokoje">liczba pokoi: od 1 do 3</p>
+                                    <p class="nieruchomosci">nieruchomosci: 5</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div id="cities-section">
+                    <h2>Najpopularniejsze miasta</h2>
+                    <p>Miasta z największą liczbą inwestycji deweloperskich</p>
+                    <div class="miasta-container">
+                        <div class="miasto">
+                            <a href="#">
+                                <img src="~/img/Warszawa.jpg" alt="Warszawa">
+                                <p>Warszawa</p>
+                            </a>
+                        </div>
+
+                        <div class="miasto">
+                            <a href="#">
+                                <img src="~/img/Wroclaw.jpg" alt="Wrocław">
+                                <p>Wrocław</p>
+                            </a>
+                        </div>
+
+                        <div class="miasto">
+                            <a href="#">
+                                <img src="~/img/Krakow.jpg" alt="Kraków">
+                                <p>Kraków</p>
+                            </a>
+                        </div>
+
+                        <div class="miasto">
+                            <a href="#">
+                                <img src="~/img/Poznan.jpg" alt="Poznań">
+                                <p>Poznań</p>
+                            </a>
+                        </div>
+
+                        <div class="miasto">
+                            <a href="#">
+                                <img src="~/img/Lodz.jpg" alt="Łódź">
+                                <p>Łódź</p>
+                            </a>
+                        </div>
+
+                        <div class="miasto">
+                            <a href="#">
+                                <img src="~/img/Katowice.jpg" alt="Katowice">
+                                <p>Katowice</p>
+                            </a>
+                        </div>
+
+                        <div class="miasto">
+                            <a href="#">
+                                <img src="~/img/Gdansk.jpg" alt="Gdańsk">
+                                <p>Gdańsk</p>
+                            </a>
+                        </div>
+
+                        <div class="miasto">
+                            <a href="#">
+                                <img src="~/img/Lublin.jpg" alt="Lublin">
+                                <p>Lublin</p>
+                            </a>
+                        </div>
+                    </div>
+                    <a href="#" class="show-all">Pokaż wszystkie</a>
                 </div>
             </div>
         </div>
+        <footer>
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="#">Logo Projektu</a>
+                </div>
+                <div class="footer-links">
+                    <a href="#">O nas</a>
+                    <a href="#">Polityka prywatności</a>
+                    <a href="#">Kontakt</a>
+                </div>
+                <p class="footer-copy">© 2024 Projekt Inżynierski. Wszystkie prawa zastrzeżone.</p>
+            </div>
+        </footer>
     </div>
-
-
 
     <script src="~/js/HomePage.js"></script>
     <script type="module">
@@ -228,23 +366,24 @@
 
             nieruchomosci.forEach(item => {
                 const element = document.createElement("a");
-                element.href = "#";  // Ustaw link, jeśli potrzebujesz
+                element.href = "#";
                 element.style.textDecoration = "none";
-                element.innerHTML = `
-                        <div class="ogloszenie">
-                            <div class="imgClass">
-                                <img src="${item.img}" alt="${item.adres}">
-                            </div>
-                            <div class="opis">
-                                <h3 class="cena">${item.cena} PLN</h3>
-                                <p class="miejsce">${item.adres}</p>
-                            </div>
-                        </div>
-                    `;
-                container.appendChild(element);
+
+                element.innerHTML =`
+                <div class="ogloszenie">
+                    <div class="imgClass">
+                        <img src="${item.img}" alt="${item.adres}">
+                    </div>
+                    <div class="opis">
+                        <h3 class="cena">${item.cena} PLN</h3>
+                        <p class="miejsce">${item.adres}</p>
+                    </div>
+                </div>
+            `;
                 container.appendChild(element);
             });
         });
+
     </script>
 </body>
 </html>

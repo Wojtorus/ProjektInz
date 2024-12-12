@@ -1,0 +1,171 @@
+﻿@model List<Projekt_inz.Models.Nieruchomosc>
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wyniki wyszukiwania</title>
+    <link rel="stylesheet" href="~/css/ResultPage.css">
+    <link rel="stylesheet" href="~/css/font/css/fontello.css">
+</head>
+<body>
+    <div class="result-container">
+        <header>
+            <a href="#" class="logo">Logo</a>
+            <div id="rightNavlist">
+                <a href="#"><div id="loves"> <i class="icon-heart" style="font-size:22px"></i></div></a>
+                <div id="mojeKonto"><a href="@Url.Action("UserAccount", "Home")"><i class="demo-icon icon-user" style="font-size:22px;"></i>Moje konto</a></div>
+                <a href="@Url.Action("SellOrRent", "Home")"><div id="WstawOgloszenie">Dodaj ogłoszenie</div></a>
+            </div>
+        </header>
+        <div id="search-filters">
+            <form class="search-form">
+                <select class="filter-dropdown">
+                    <option>Mieszkania</option>
+                    <option>Domy</option>
+                    <option>Działki</option>
+                </select>
+                <select class="filter-dropdown">
+                    <option>Na sprzedaż</option>
+                    <option>Do wynajęcia</option>
+                </select>
+                <input type="text" class="filter-input" placeholder="Wpisz lokalizację" />
+                <select class="filter-dropdown">
+                    <option>+ 0 km</option>
+                    <option>+ 5 km</option>
+                    <option>+ 10 km</option>
+                </select>
+                <input type="number" class="filter-input" placeholder="Cena od (zł)" />
+                <input type="number" class="filter-input" placeholder="Cena do (zł)" />
+                <input type="number" class="filter-input" placeholder="Powierzchnia od (m²)" />
+                <input type="number" class="filter-input" placeholder="Powierzchnia do (m²)" />
+                <select class="filter-dropdown">
+                    <option>1 pokój</option>
+                    <option>2 pokoje</option>
+                    <option>3 pokoje</option>
+                    <option>4 pokoje</option>
+                    <option>5 pokoji</option>
+                    <option>+ 6 pokoji</option>
+                </select>
+                <div class="actions">
+                    <button class="clear-filters">Wyczyść kryteria</button>
+                    <button class="search-button">Wyszukaj</button>
+                </div>
+            </form>
+
+        </div>
+
+        <div class="result-content">
+            <div class="results">
+                <h2>Wyniki wyszukiwania</h2>
+                <div class="results-list">
+                    @foreach (var item in Model)
+                    {
+                     <div class="result-item">
+                        <div class="img-container">
+                            <img src="~/img/Invest.jpg" alt="Ogłoszenie 1" />
+                        </div>
+                        <div class="result-details">
+                            <h3 class="title">Mieszkanie w Gdańsku</h3>
+                            <p class="price">@item.cena</p>
+                            <p class="location">ul. Starogardzka, Gdańsk</p>
+                            <p class="area">47 m²</p>
+                            <p class="rooms">2 pokoje</p>
+                            <button class="view-details-btn">Zobacz szczegóły</button>
+                        </div>
+                    </div>
+                    }
+                    <div class="result-item">
+                        <div class="img-container">
+                            <img src="~/img/Invest.jpg" alt="Ogłoszenie 1" />
+                        </div>
+                        <div class="result-details">
+                            <h3 class="title">Mieszkanie w Gdańsku</h3>
+                            <p class="price">483 000 zł</p>
+                            <p class="location">ul. Starogardzka, Gdańsk</p>
+                            <p class="area">47 m²</p>
+                            <p class="rooms">2 pokoje</p>
+                            <button class="view-details-btn">Zobacz szczegóły</button>
+                        </div>
+                    </div>
+                    <div class="result-item">
+                        <div class="img-container">
+                            <img src="~/img/Invest.jpg" alt="Ogłoszenie 2" />
+                        </div>
+                        <div class="result-details">
+                            <h3 class="title">Dom w Warszawie</h3>
+                            <p class="price">1 200 000 zł</p>
+                            <p class="location">ul. Polna, Warszawa</p>
+                            <p class="area">120 m²</p>
+                            <p class="rooms">4 pokoje</p>
+                            <button class="view-details-btn">Zobacz szczegóły</button>
+                        </div>
+                    </div>
+                     <div class="result-item">
+                        <div class="img-container">
+                            <img src="~/img/Invest.jpg" alt="Ogłoszenie 2" />
+                        </div>
+                        <div class="result-details">
+                            <h3 class="title">Don jednorodzinny w Rewalu</h3>
+                            <p class="price">5 500 000 zł</p>
+                            <p class="location">ul. Weloryba 10, Rewal</p>
+                            <p class="area">190 m²</p>
+                            <p class="rooms">8 pokoje</p>
+                            <button class="view-details-btn">Zobacz szczegóły</button>
+                        </div>
+                    </div>
+                     <div class="result-item">
+                        <div class="img-container">
+                            <img src="~/img/Invest.jpg" alt="Ogłoszenie 2" />
+                        </div>
+                        <div class="result-details">
+                            <h3 class="title">Gniezno</h3>
+                            <p class="price">500 000 zł</p>
+                            <p class="location">ul. Wojciecha, Gniezno</p>
+                            <p class="area">50 m²</p>
+                            <p class="rooms">2 pokoje</p>
+                            <button class="view-details-btn">Zobacz szczegóły</button>
+                        </div>
+                    </div>
+                     <div class="result-item">
+                        <div class="img-container">
+                            <img src="~/img/Invest.jpg" alt="Ogłoszenie 2" />
+                        </div>
+                        <div class="result-details">
+                            <h3 class="title">Dom w Gliwicach</h3>
+                            <p class="price">2 200 000 zł</p>
+                            <p class="location">ul. Węglowa 5, Gliwice</p>
+                            <p class="area">100 m²</p>
+                            <p class="rooms">4 pokoje</p>
+                            <button class="view-details-btn">Zobacz szczegóły</button>
+                        </div>
+                    </div>
+                    <div class="result-item">
+                        <div class="img-container">
+                            <img src="~/img/Invest.jpg" alt="Ogłoszenie 2" />
+                        </div>
+                        <div class="result-details">
+                            <h3 class="title">Dom na Osiedlu Europejskim</h3>
+                            <p class="price">10 200 000 zł</p>
+                            <p class="location">ul. Brukselska, Gorzów Wlkp</p>
+                            <p class="area">520 m²</p>
+                            <p class="rooms">7 pokoji</p>
+                            <button class="view-details-btn">Zobacz szczegóły</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="pagination">
+                    <button class="pagination-btn">Poprzednia</button>
+                    <span>1 | 2 | 3</span>
+                    <button class="pagination-btn">Następna</button>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p>&copy; 2024 Projekt Inżynierski. Wszystkie prawa zastrzeżone.</p>
+        </footer>
+    </div>
+</body>
+</html>

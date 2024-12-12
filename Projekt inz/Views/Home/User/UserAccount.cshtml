@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ogłoszenia</title>
+    <link rel="stylesheet" href="~/css/User/UserAccount.css">
+    <link rel="stylesheet" href="~/css/font/css/fontello.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Logo</a>
+        <div id="rightNavlist">
+            <a href="#"><div id="loves"> <i class="icon-heart" style="font-size:22px"></i></div></a>
+            <div id="mojeKonto"><a href="@Url.Action("UserAccount", "Home")"><i class="demo-icon icon-user" style="font-size:22px;"></i>Moje konto</a></div>
+            <a href="@Url.Action("SellOrRent", "Home")"><div id="WstawOgloszenie">Dodaj ogłoszenie</div></a>
+        </div>
+    </header>
+    <div class="container">
+        <!-- Górna część z przyciskami nawigacyjnymi -->
+        <div class="Account">
+            <div class="navigation">
+
+                <a class="userSettings" href="@Url.Action("UserAccount", "Home")">
+                    <div class="nav-button active"><i class="icon-menu" style="font-size: 20px;"></i> </div>
+                        <span class="nav-title">Ogłoszenia</span>
+                    </a>
+
+                    <a class="userSettings" href="#">
+                    <div class="nav-button"><i class="icon-chat" style="font-size: 20px;"></i></div>
+                        <span class="nav-title" onclick=>Wiadomości</span>
+                    </a>
+
+                <a class="userSettings" href="@Url.Action("UserSetting", "Home")">
+                    <div class="nav-button"><i class="icon-cog" style="font-size: 20px;"></i></div>
+                        <span class="nav-title">Ustawienia</span>
+                    </a>
+            </div>
+        </div>
+
+        <div id="announcement-tabs" class="announcement-tabs">
+            <button class="announcement-tab active" onclick="showAnnouncementTab('active-tab')">Aktywne</button>
+            <button class="announcement-tab" onclick="showAnnouncementTab('waiting-tab')">Oczekujące</button>
+            <button class="announcement-tab" onclick="showAnnouncementTab('completed-tab')">Zakończone</button>
+            <button class="announcement-tab" onclick="showAnnouncementTab('moderated-tab')">Zmoderowane</button>
+        </div>
+
+        <div id="active-tab" class="announcement-content active-tab">
+             <!-- Sekcja z filtrami i sortowaniem -->
+            <div class="filters">
+                <label for="sorting">Sortowanie:</label>
+                <select id="sorting" name="sorting">
+                    <option value="latest">od najnowszych</option>
+                    <option value="oldest">od najstarszych</option>
+                </select>
+            </div>
+            <h3>Aktywne ogłoszenia</h3>
+            <p>Brak ogłoszeń.</p>
+        </div>
+        <div id="waiting-tab" class="announcement-content">
+            <h3>Oczekujące ogłoszenia</h3>
+            <p>Brak ogłoszeń.</p>
+        </div>
+        <div id="completed-tab" class="announcement-content">
+            <h3>Zakończone ogłoszenia</h3>
+            <p>Brak ogłoszeń.</p>
+        </div>
+        <div id="moderated-tab" class="announcement-content">
+            <h3>Zmoderowane ogłoszenia</h3>
+            <p>Brak ogłoszeń.</p>
+        </div>
+
+        <!-- Przycisk do dodawania ogłoszenia -->
+        <div class="add-announcement">
+            <button class="add-button">Dodaj ogłoszenie</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

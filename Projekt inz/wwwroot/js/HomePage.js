@@ -63,7 +63,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const arrowRight = document.querySelector(".arrow-right");
 
     let scrollAmount = 0;
-    const scrollStep = 300; // Ilość przesuwania w px za każdym razem
+    const scrollStep = 400; // Ilość przesuwania w px za każdym razem
 
     // Funkcja przesuwania w lewo
     arrowLeft.addEventListener("click", function () {
@@ -128,3 +128,100 @@ document.addEventListener("DOMContentLoaded", function () {
         activateTab("developer");
     });
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+    const buttons = document.querySelectorAll(".rodzaje-container button");
+    buttons.forEach(function (button) {
+        button.addEventListener("click", function () {
+            buttons.forEach(function (btn) {
+                btn.classList.remove("active");
+            });
+            this.classList.add("active");
+        });
+    });
+});
+
+    document.addEventListener("DOMContentLoaded", function () {
+        // Formularz wyszukiwania
+        const searchForm = document.getElementById("searchForm");
+    const searchButton = searchForm.querySelector(".search-button");
+
+    searchButton.addEventListener("click", function (event) {
+        event.preventDefault(); // Zatrzymujemy domyślną akcję wysyłania formularza
+
+    // Przypisanie wartości domyślnych, jeśli pola są puste
+    const inputs = searchForm.querySelectorAll("input");
+
+            inputs.forEach(input => {
+                if (!input.value) {
+                    if (input.name === "location") {
+        input.value = "Warszawa"; 
+                    } else if (input.name === "priceMin") {
+        input.value = "1000"; 
+                    } else if (input.name === "priceMax") {
+        input.value = "5000"; 
+                    } else if (input.name === "surfaceMin") {
+        input.value = "30"; 
+                    } else if (input.name === "surfaceMax") {
+        input.value = "150"; 
+                    }
+                }
+            });
+
+    // Po przypisaniu wartości domyślnych wysyłamy formularz
+    searchForm.submit();
+        });
+
+    // Formularz deweloperów
+    const developerForm = document.getElementById("developerForm");
+    const developerButton = developerForm.querySelector(".search-button");
+
+    developerButton.addEventListener("click", function (event) {
+        event.preventDefault();  // Zatrzymujemy domyślną akcję formularza
+
+    const developerInputs = developerForm.querySelectorAll("input");
+
+            developerInputs.forEach(input => {
+                if (!input.value) {
+                    if (input.name === "location") {
+        input.value = "Warszawa"; 
+                    } else if (input.name === "priceMin") {
+        input.value = "1000"; 
+                    } else if (input.name === "priceMax") {
+        input.value = "5000"; 
+                    } else if (input.name === "surfaceMin") {
+        input.value = "30"; 
+                    } else if (input.name === "surfaceMax") {
+        input.value = "150"; 
+                    }
+                }
+            });
+
+    // Po nadaniu domyślnych wartości wysyłamy formularz
+    developerForm.submit();
+        });
+
+    // Obsługa rozwijanych menu
+    const dropdowns = document.querySelectorAll(".dropdown");
+
+    dropdowns.forEach(function(dropdown) {
+            const button = dropdown.querySelector(".dropdown-button");
+    const menu = dropdown.querySelector(".dropdown-menu");
+
+    button.addEventListener("click", function(event) {
+        event.stopPropagation(); // Zatrzymuje propagację kliknięcia, aby nie wysłać formularza
+    menu.classList.toggle("active"); // Zmieniamy klasę, aby wyświetlić menu
+            });
+
+    // Ukrywa menu, jeśli klikniesz poza nim
+    document.addEventListener("click", function(event) {
+                // Jeśli kliknięto poza dropdown, ukryj menu
+                if (!dropdown.contains(event.target)) {
+        menu.classList.remove("active");
+                }
+            });
+        });
+
+    });
+
+

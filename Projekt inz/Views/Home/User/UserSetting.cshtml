@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ogłoszenia</title>
+    <link rel="stylesheet" href="~/css/User/UserSetting.css">
+    <link rel="stylesheet" href="~/css/font/css/fontello.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Logo</a>
+        <div id="rightNavlist">
+            <a href="#"><div id="loves"> <i class="icon-heart" style="font-size:22px"></i></div></a>
+            <div id="mojeKonto"><a href="@Url.Action("UserAccount", "Home")"><i class="demo-icon icon-user" style="font-size:22px;"></i>Moje konto</a></div>
+            <a href="@Url.Action("SellOrRent", "Home")"><div id="WstawOgloszenie">Dodaj ogłoszenie</div></a>
+        </div>
+    </header>
+    <div class="container">
+        <!-- Górna część z przyciskami nawigacyjnymi -->
+        <div class="Account">
+            <div class="navigation">
+
+                <a class="userSettings" href="@Url.Action("UserAccount", "Home")">
+                    <div class="nav-button"><i class="icon-menu" style="font-size: 20px;"></i> </div>
+                    <span class="nav-title">Ogłoszenia</span>
+                </a>
+
+                <a class="userSettings" href="#">
+                    <div class="nav-button"><i class="icon-chat" style="font-size: 20px;"></i></div>
+                    <span class="nav-title">Wiadomości</span>
+                </a>
+
+                <a class="userSettings" href="@Url.Action("UserSetting", "Home")">
+                    <div class="nav-button  active"><i class="icon-cog" style="font-size: 20px;"></i></div>
+                    <span class="nav-title">Ustawienia</span>
+                </a>
+            </div>
+        </div>
+        <div id="secondContainer">
+            <div class="settings-container">
+                <h2 class="section-title">Zmień hasło</h2>
+                <form class="form-section">
+                    <div class="form-row">
+                        <div class="row">
+                            <label for="current-password">Aktualne hasło*</label>
+                            <input id="current-password" type="password" placeholder="Wpisz aktualne hasło">
+                        </div>
+                        <div class="row">
+                            <label for="current-password">Nowe hasło*</label>
+                            <input id="current-password" type="password" placeholder="Wpisz aktualne hasło">
+                        </div>
+                        <div class="row">
+                            <label for="current-password">Powtórz nowe hasło*</label>
+                            <input id="current-password" type="password" placeholder="Wpisz aktualne hasło">
+                        </div>
+                    </div>
+        
+                    <button type="submit" class="btn-primary">Zmień hasło</button>
+                </form>
+
+                <h2 class="section-title">Zmień adres email</h2>
+                <form class="form-section">
+                    <div class="form-row">
+                        <div class="row">
+                            <label for="new-email">Nowy e-mail*</label>
+                            <input id="new-email" type="email" placeholder="Wpisz nowy e-mail">
+                        </div>
+                        <div class="row">
+                            <label for="new-email">Nowy e-mail*</label>
+                            <input id="new-email" type="email" placeholder="Wpisz nowy e-mail">
+                        </div>
+                    </div>
+                    <button type="submit" class="btn-primary">Zmień adres email</button>
+                </form>
+
+                <h2 class="section-title">Zarządzanie zawartością konta</h2>
+                <p class="info-text">
+                    Dane na koncie serwisu Otodom pozostają pod Twoją kontrolą. W dowolnym momencie możesz pobrać Twoje dane lub usunąć swoje konto (opcja "Usuń moje konto"). <strong>UWAGA!</strong> Usunięcie konta jest nieodwracalne.
+                </p>
+                <div class="action-buttons">
+                    <button class="btn-secondary">Przekaż moje dane</button>
+                    <button class="btn-danger">Usuń moje konto</button>
+                </div>
+            </div>
+        </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

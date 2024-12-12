@@ -19,11 +19,6 @@ body {
     text-decoration: none;
 }
 
-a.no-style {
-    text-decoration: none;
-    color: inherit;
-}
-
 header {
     position: absolute;
     top: 0;
@@ -34,6 +29,13 @@ header {
     align-items: center;
     padding: 20px 10%;
 }
+    header a {
+        text-decoration:none;
+    }
+    
+    header ul {
+        list-style-type: none;
+    }
 
     header .logo {
         font-size: 26px;

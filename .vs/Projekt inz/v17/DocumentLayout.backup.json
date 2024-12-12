@@ -1,0 +1,238 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{65889C82-172A-435D-8449-A5C010972489}|Projekt inz\\Projekt inz.csproj|c:\\users\\wojtek\\source\\repos\\projekt inz\\projekt inz\\wwwroot\\css\\user\\usersetting.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{65889C82-172A-435D-8449-A5C010972489}|Projekt inz\\Projekt inz.csproj|solutionrelative:projekt inz\\wwwroot\\css\\user\\usersetting.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65889C82-172A-435D-8449-A5C010972489}|Projekt inz\\Projekt inz.csproj|c:\\users\\wojtek\\source\\repos\\projekt inz\\projekt inz\\views\\home\\user\\usersetting.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{65889C82-172A-435D-8449-A5C010972489}|Projekt inz\\Projekt inz.csproj|solutionrelative:projekt inz\\views\\home\\user\\usersetting.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65889C82-172A-435D-8449-A5C010972489}|Projekt inz\\Projekt inz.csproj|c:\\users\\wojtek\\source\\repos\\projekt inz\\projekt inz\\views\\home\\user\\useraccount.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{65889C82-172A-435D-8449-A5C010972489}|Projekt inz\\Projekt inz.csproj|solutionrelative:projekt inz\\views\\home\\user\\useraccount.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65889C82-172A-435D-8449-A5C010972489}|Projekt inz\\Projekt inz.csproj|c:\\users\\wojtek\\source\\repos\\projekt inz\\projekt inz\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{65889C82-172A-435D-8449-A5C010972489}|Projekt inz\\Projekt inz.csproj|solutionrelative:projekt inz\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65889C82-172A-435D-8449-A5C010972489}|Projekt inz\\Projekt inz.csproj|c:\\users\\wojtek\\source\\repos\\projekt inz\\projekt inz\\wwwroot\\css\\user\\useraccount.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{65889C82-172A-435D-8449-A5C010972489}|Projekt inz\\Projekt inz.csproj|solutionrelative:projekt inz\\wwwroot\\css\\user\\useraccount.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65889C82-172A-435D-8449-A5C010972489}|Projekt inz\\Projekt inz.csproj|c:\\users\\wojtek\\source\\repos\\projekt inz\\projekt inz\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65889C82-172A-435D-8449-A5C010972489}|Projekt inz\\Projekt inz.csproj|solutionrelative:projekt inz\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65889C82-172A-435D-8449-A5C010972489}|Projekt inz\\Projekt inz.csproj|c:\\users\\wojtek\\source\\repos\\projekt inz\\projekt inz\\wwwroot\\css\\homepage.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{65889C82-172A-435D-8449-A5C010972489}|Projekt inz\\Projekt inz.csproj|solutionrelative:projekt inz\\wwwroot\\css\\homepage.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65889C82-172A-435D-8449-A5C010972489}|Projekt inz\\Projekt inz.csproj|c:\\users\\wojtek\\source\\repos\\projekt inz\\projekt inz\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{65889C82-172A-435D-8449-A5C010972489}|Projekt inz\\Projekt inz.csproj|solutionrelative:projekt inz\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65889C82-172A-435D-8449-A5C010972489}|Projekt inz\\Projekt inz.csproj|c:\\users\\wojtek\\source\\repos\\projekt inz\\projekt inz\\wwwroot\\css\\register.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{65889C82-172A-435D-8449-A5C010972489}|Projekt inz\\Projekt inz.csproj|solutionrelative:projekt inz\\wwwroot\\css\\register.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65889C82-172A-435D-8449-A5C010972489}|Projekt inz\\Projekt inz.csproj|c:\\users\\wojtek\\source\\repos\\projekt inz\\projekt inz\\wwwroot\\css\\resultpage.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{65889C82-172A-435D-8449-A5C010972489}|Projekt inz\\Projekt inz.csproj|solutionrelative:projekt inz\\wwwroot\\css\\resultpage.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65889C82-172A-435D-8449-A5C010972489}|Projekt inz\\Projekt inz.csproj|c:\\users\\wojtek\\source\\repos\\projekt inz\\projekt inz\\wwwroot\\dane\\nieruchomosci.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{65889C82-172A-435D-8449-A5C010972489}|Projekt inz\\Projekt inz.csproj|solutionrelative:projekt inz\\wwwroot\\dane\\nieruchomosci.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65889C82-172A-435D-8449-A5C010972489}|Projekt inz\\Projekt inz.csproj|c:\\users\\wojtek\\source\\repos\\projekt inz\\projekt inz\\wwwroot\\js\\homepage.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{65889C82-172A-435D-8449-A5C010972489}|Projekt inz\\Projekt inz.csproj|solutionrelative:projekt inz\\wwwroot\\js\\homepage.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65889C82-172A-435D-8449-A5C010972489}|Projekt inz\\Projekt inz.csproj|c:\\users\\wojtek\\source\\repos\\projekt inz\\projekt inz\\views\\home\\sellorrent\\sell\\sell.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{65889C82-172A-435D-8449-A5C010972489}|Projekt inz\\Projekt inz.csproj|solutionrelative:projekt inz\\views\\home\\sellorrent\\sell\\sell.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Projekt inz\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Projekt inz\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABcAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-20T19:17:54.72Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserSetting.css",
+              "DocumentMoniker": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\css\\User\\UserSetting.css",
+              "RelativeDocumentMoniker": "Projekt inz\\wwwroot\\css\\User\\UserSetting.css",
+              "ToolTip": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\css\\User\\UserSetting.css",
+              "RelativeToolTip": "Projekt inz\\wwwroot\\css\\User\\UserSetting.css",
+              "ViewState": "AgIAAM0AAAAAAAAAAAAcwBcBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-12T03:46:35.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserSetting.cshtml",
+              "DocumentMoniker": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\Views\\Home\\User\\UserSetting.cshtml",
+              "RelativeDocumentMoniker": "Projekt inz\\Views\\Home\\User\\UserSetting.cshtml",
+              "ToolTip": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\Views\\Home\\User\\UserSetting.cshtml",
+              "RelativeToolTip": "Projekt inz\\Views\\Home\\User\\UserSetting.cshtml",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAEQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-12T03:46:21.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserAccount.cshtml",
+              "DocumentMoniker": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\Views\\Home\\User\\UserAccount.cshtml",
+              "RelativeDocumentMoniker": "Projekt inz\\Views\\Home\\User\\UserAccount.cshtml",
+              "ToolTip": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\Views\\Home\\User\\UserAccount.cshtml",
+              "RelativeToolTip": "Projekt inz\\Views\\Home\\User\\UserAccount.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAADwvyUAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T04:25:04.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserAccount.css",
+              "DocumentMoniker": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\css\\User\\UserAccount.css",
+              "RelativeDocumentMoniker": "Projekt inz\\wwwroot\\css\\User\\UserAccount.css",
+              "ToolTip": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\css\\User\\UserAccount.css",
+              "RelativeToolTip": "Projekt inz\\wwwroot\\css\\User\\UserAccount.css",
+              "ViewState": "AgIAAAMBAAAAAAAAAAAcwB0BAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-09T04:25:55.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomePage.css",
+              "DocumentMoniker": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\css\\HomePage.css",
+              "RelativeDocumentMoniker": "Projekt inz\\wwwroot\\css\\HomePage.css",
+              "ToolTip": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\css\\HomePage.css",
+              "RelativeToolTip": "Projekt inz\\wwwroot\\css\\HomePage.css",
+              "ViewState": "AgIAAHYCAAAAAAAAAAAmwKgCAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-09T02:32:57.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Projekt inz\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Projekt inz\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAADwv2kAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T04:47:56.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Nieruchomosci.js",
+              "DocumentMoniker": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\Dane\\Nieruchomosci.js",
+              "RelativeDocumentMoniker": "Projekt inz\\wwwroot\\Dane\\Nieruchomosci.js",
+              "ToolTip": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\Dane\\Nieruchomosci.js",
+              "RelativeToolTip": "Projekt inz\\wwwroot\\Dane\\Nieruchomosci.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-10T22:34:02.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Login.css",
+              "DocumentMoniker": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\css\\Login.css",
+              "RelativeDocumentMoniker": "Projekt inz\\wwwroot\\css\\Login.css",
+              "ToolTip": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\css\\Login.css",
+              "RelativeToolTip": "Projekt inz\\wwwroot\\css\\Login.css",
+              "ViewState": "AgIAAKUAAAAAAAAAAAAAALIAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-12T03:37:24.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ResultPage.css",
+              "DocumentMoniker": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\css\\ResultPage.css",
+              "RelativeDocumentMoniker": "Projekt inz\\wwwroot\\css\\ResultPage.css",
+              "ToolTip": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\css\\ResultPage.css",
+              "RelativeToolTip": "Projekt inz\\wwwroot\\css\\ResultPage.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-02T01:19:40.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Register.css",
+              "DocumentMoniker": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\css\\Register.css",
+              "RelativeDocumentMoniker": "Projekt inz\\wwwroot\\css\\Register.css",
+              "ToolTip": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\css\\Register.css",
+              "RelativeToolTip": "Projekt inz\\wwwroot\\css\\Register.css",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAAAHcAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-09T01:29:19.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "HomePage.js",
+              "DocumentMoniker": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\js\\HomePage.js",
+              "RelativeDocumentMoniker": "Projekt inz\\wwwroot\\js\\HomePage.js",
+              "ToolTip": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\js\\HomePage.js",
+              "RelativeToolTip": "Projekt inz\\wwwroot\\js\\HomePage.js",
+              "ViewState": "AgIAAJYAAAAAAAAAAAAUwJMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-07T01:42:04.185Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Sell.cshtml",
+              "DocumentMoniker": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\Views\\Home\\SellOrRent\\Sell\\Sell.cshtml",
+              "RelativeDocumentMoniker": "Projekt inz\\Views\\Home\\SellOrRent\\Sell\\Sell.cshtml",
+              "ToolTip": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\Views\\Home\\SellOrRent\\Sell\\Sell.cshtml",
+              "RelativeToolTip": "Projekt inz\\Views\\Home\\SellOrRent\\Sell\\Sell.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T00:55:05.569Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
