@@ -1,0 +1,173 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    text-decoration: none;
+}
+
+body {
+    background: #000000;
+    overflow-x: hidden;
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+}
+
+    header .logo {
+        font-size: 26px;
+        font-weight: 700;
+        color: #ff84ff;
+        text-decoration: none;
+    }
+
+#rightNavlist {
+    margin-left: 3rem;
+    font-weight: 600;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 400px;
+}
+
+#loves {
+    border-radius: 50%;
+    border: 2px solid white;
+    padding: 5px 3px;
+}
+
+    #loves:hover {
+        color: #ff84ff;
+        text-shadow: 0px 0px 3px #ff84ff;
+        border: 2px solid #ff84ff;
+        box-shadow: 0 0 5px rgba(138, 138, 255, 0.5);
+    }
+
+.icon-heart:hover {
+    color: #ff84ff;
+}
+
+#mojeKonto {
+    padding: 5px 10px;
+    white-space: nowrap;
+}
+
+    #mojeKonto:hover a, #mojeKonto:hover i {
+        color: #ff84ff;
+        text-shadow: 0px 0px 3px #ff84ff;
+        transition: all ease-in-out .3s
+    }
+
+    #mojeKonto a {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: white;
+    }
+
+    #mojeKonto i {
+        margin-right: 5px;
+        font-size: 20px;
+        line-height: 1;
+    }
+
+#WstawOgloszenie {
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 3px solid #ff84ff;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 40px;
+    width: auto;
+    padding: 20px 20px;
+    white-space: nowrap;
+    transition: all ease .5s;
+}
+
+    #WstawOgloszenie:hover {
+        background-color: #ff84ff;
+        color: #000;
+    }
+
+.details-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 80%;
+    margin: 0 auto;
+    background-color: #162938;
+    width:100%;
+    padding:20px 0;
+}
+
+.image-carousel {
+    width: 65%;
+    position: relative;
+    overflow: hidden;
+}
+
+    .image-carousel div {
+        display: none;
+    }
+
+        .image-carousel div.active {
+            display: block;
+        }
+
+    .image-carousel img {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+.property-details {
+    width: 75%;
+    background-color: #1c3b4a;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.property-title {
+    color: #ff84ff;
+    margin-top: 0;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+    ul li {
+        margin: 5px 0;
+    }
+
+a {
+    color: #9b59b6;
+    text-decoration: none;
+}
+
+.chat-button {
+    display: inline-block;
+    background-color: #ff84ff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    text-align: center;
+}
+
+    .chat-button:hover {
+        background-color: #9b59b6;
+    }

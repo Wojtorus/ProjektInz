@@ -26,9 +26,9 @@
                         <span class="nav-title">Ogłoszenia</span>
                     </a>
 
-                    <a class="userSettings" href="#">
+                    <a class="userSettings" href="@Url.Action("UserMessage", "Home")">
                     <div class="nav-button"><i class="icon-chat" style="font-size: 20px;"></i></div>
-                        <span class="nav-title" onclick=>Wiadomości</span>
+                        <span class="nav-title">Wiadomości</span>
                     </a>
 
                 <a class="userSettings" href="@Url.Action("UserSetting", "Home")">
@@ -45,8 +45,8 @@
             <button class="announcement-tab" onclick="showAnnouncementTab('moderated-tab')">Zmoderowane</button>
         </div>
 
+        <!-- Sekcje ogłoszeń -->
         <div id="active-tab" class="announcement-content active-tab">
-             <!-- Sekcja z filtrami i sortowaniem -->
             <div class="filters">
                 <label for="sorting">Sortowanie:</label>
                 <select id="sorting" name="sorting">
@@ -76,6 +76,34 @@
         </div>
     </div>
 
-    <script src="script.js"></script>
+    <script>
+        // Funkcja przełączająca zawartość zakładek
+        function showAnnouncementTab(tabId) {
+            // Ukrywanie wszystkich zawartości ogłoszeń
+            const announcementContents = document.querySelectorAll('.announcement-content');
+            announcementContents.forEach(content => {
+                content.style.display = 'none'; // Ukrywamy wszystkie zawartości
+            });
+
+            // Pokazywanie tylko aktywnego tab
+            const activeTabContent = document.getElementById(tabId);
+            activeTabContent.style.display = 'block'; // Pokazujemy wybrany tab
+
+            // Usuwamy klasę aktywną z wszystkich przycisków
+            const announcementTabs = document.querySelectorAll('.announcement-tab');
+            announcementTabs.forEach(tab => {
+                tab.classList.remove('active');
+            });
+
+            // Dodajemy klasę aktywną do klikniętego przycisku
+            const activeTabButton = document.querySelector(`[onclick="showAnnouncementTab('${tabId}')"]`);
+            activeTabButton.classList.add('active');
+        }
+
+        // Inicjalizacja domyślnie aktywnej zakładki "Aktywne" po załadowaniu strony
+        window.onload = function() {
+            showAnnouncementTab('active-tab'); // Ustawiamy domyślnie widoczny tab na 'active-tab'
+        }
+    </script>
 </body>
 </html>

@@ -475,26 +475,35 @@ input.input-text:focus, input.input-price:focus, input.input-surface:focus {
     gap: 20px;
 }
 
-.nieruchomosc {
-    width: 23%;
-    text-align: center;
+.nieruchomosci-grid {
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px; 
 }
 
-    .nieruchomosc img {
-        width: 100%;
-        border-radius: 10px;
+    .nieruchomosci-grid .nieruchomosc {
+        text-align: center;
+        padding: 10px;
+        border-radius: 8px;
         transition: transform 0.3s;
     }
 
-        .nieruchomosc img:hover {
-            transform: scale(1.05);
+        .nieruchomosci-grid .nieruchomosc img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            transition: transform 0.3s;
         }
 
-    .nieruchomosc p {
-        margin-top: 10px;
-        font-size: 16px;
-    }
+            .nieruchomosci-grid .nieruchomosc img:hover {
+                transform: scale(1.05); 
+            }
 
+        .nieruchomosci-grid .nieruchomosc p {
+            margin-top: 10px;
+            font-size: 16px;
+            color: #fff; 
+        }
 .promowane-inwestyjce {
     padding: 20px;
     background-color: #1e1e1e;

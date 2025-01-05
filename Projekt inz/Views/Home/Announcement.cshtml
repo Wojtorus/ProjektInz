@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Szczegóły ogłoszenia</title>
+    <link rel="stylesheet" href="~/css/Announcement.css">
+    <link rel="stylesheet" href="~/css/font/css/fontello.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Logo</a>
+        <div id="rightNavlist">
+            <a href="#"><div id="loves"> <i class="icon-heart" style="font-size:22px"></i></div></a>
+            <div id="mojeKonto"><a href="@Url.Action("UserAccount", "Home")"><i class="demo-icon icon-user" style="font-size:22px;"></i>Moje konto</a></div>
+            <a href="@Url.Action("SellOrRent", "Home")"><div id="WstawOgloszenie">Dodaj ogłoszenie</div></a>
+        </div>
+    </header>
+    <div class="details-container">
+        <div class="image-carousel">
+            <div><img src="https://via.placeholder.com/800x400" alt="Zdjęcie 1"></div>
+            <div><img src="https://via.placeholder.com/800x400" alt="Zdjęcie 2"></div>
+            <div><img src="https://via.placeholder.com/800x400" alt="Zdjęcie 3"></div>
+        </div>
+
+        <div class="property-details">
+            <h1 class="property-title">Dom na sprzedaż</h1>
+            <p><strong>Lokalizacja:</strong> Miejscowość, Ulica</p>
+            <p><strong>Powierzchnia:</strong> 120 m²</p>
+            <p><strong>Cena:</strong> 500 000 zł</p>
+            <p><strong>Liczba pokoi:</strong> 4</p>
+            <p><strong>Opis:</strong> Piękny dom w spokojnej okolicy. Idealny dla rodziny.</p>
+
+            <h2>Wyposażenie i cechy:</h2>
+            <ul>
+                <li>Winda: Tak</li>
+                <li>Parking: Garaż</li>
+                <li>Balkon: Tak</li>
+                <li>Rok budowy: 2015</li>
+            </ul>
+
+            <h2>Bezpieczeństwo i okolica:</h2>
+            <ul>
+                <li>Bezpieczeństwo: Monitoring</li>
+                <li>Dostosowane dla osób niepełnosprawnych: Tak</li>
+                <li>Zabudowa w okolicy: Jednorodzinna</li>
+                <li>Przyroda w okolicy: Park, Las</li>
+            </ul>
+
+            <h2>Media:</h2>
+            <ul>
+                <li>Woda: Tak</li>
+                <li>Prąd: Tak</li>
+                <li>Gaz: Nie</li>
+                <li>Kanalizacja: Tak</li>
+                <li>Internet: Tak</li>
+            </ul>
+
+            <h2>Dodatkowe informacje:</h2>
+            <ul>
+                <li>Ogród: Tak</li>
+                <li>Piwnica: Nie</li>
+                <li>Strych: Tak</li>
+                <li>Garaż: Tak</li>
+                <li>Klimatyzacja: Nie</li>
+                <li>Basen: Nie</li>
+            </ul>
+
+            <h2>Dane kontaktowe:</h2>
+            <p><strong>Imię i nazwisko:</strong> Jan Kowalski</p>
+            <p><strong>Numer telefonu:</strong> +48 123 456 789</p>
+
+            <button class="chat-button" onclick="window.location.href='@Url.Action("UserMessage", "User")'">Rozpocznij rozmowę</button>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const carousel = document.querySelector('.image-carousel');
+            if (carousel) {
+                let index = 0;
+                const slides = carousel.children;
+                slides[index].classList.add('active');
+
+                setInterval(() => {
+                    slides[index].classList.remove('active');
+                    index = (index + 1) % slides.length;
+                    slides[index].classList.add('active');
+                }, 3000);
+            }
+        });
+    </script>
+</body>
+</html>

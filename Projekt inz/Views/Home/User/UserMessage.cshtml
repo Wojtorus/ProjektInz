@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wiadomości</title>
+    <link rel="stylesheet" href="~/css/User/UserMessage.css">
+    <link rel="stylesheet" href="~/css/font/css/fontello.css" />
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Logo</a>
+        <div id="rightNavlist">
+            <a href="#"><div id="loves"> <i class="icon-heart" style="font-size:22px"></i></div></a>
+            <div id="mojeKonto"><a href="@Url.Action("UserAccount", "Home")"><i class="demo-icon icon-user" style="font-size:22px;"></i>Moje konto</a></div>
+            <a href="@Url.Action("SellOrRent", "Home")"><div id="WstawOgloszenie">Dodaj ogłoszenie</div></a>
+        </div>
+    </header>
+    <div class="container">
+        <!-- Górna część z przyciskami nawigacyjnymi -->
+        <div class="Account">
+            <div class="navigation">
+
+                <a class="userSettings" href="@Url.Action("UserAccount", "Home")">
+                    <div class="nav-button"><i class="icon-menu" style="font-size: 20px;"></i> </div>
+                    <span class="nav-title">Ogłoszenia</span>
+                </a>
+
+                <a class="userSettings" href="@Url.Action("UserMessage", "Home")">
+                    <div class="nav-button active"><i class="icon-chat" style="font-size: 20px;"></i></div>
+                    <span class="nav-title">Wiadomości</span>
+                </a>
+
+                <a class="userSettings" href="@Url.Action("UserSetting", "Home")">
+                    <div class="nav-button"><i class="icon-cog" style="font-size: 20px;"></i></div>
+                    <span class="nav-title">Ustawienia</span>
+                </a>
+            </div>
+        </div>
+
+    <main>
+        <div id="secondContainer">
+            <div class="messages-container">
+                <!-- Lista użytkowników po lewej stronie -->
+                <div class="user-list">
+                    <h3>Twoi rozmówcy</h3>
+                    <div class="user-item" onclick="startChat(1)">
+                        <p class="username">Jan Kowalski</p>
+                    </div>
+                    <div class="user-item" onclick="startChat(2)">
+                        <p class="username">Anna Nowak</p>
+                    </div>
+                    <div class="user-item" onclick="startChat(3)">
+                        <p class="username">Marek Zawisza</p>
+                    </div>
+                    <!-- Więcej użytkowników -->
+                </div>
+
+                <!-- Okno rozmowy po prawej stronie -->
+                <div class="chat-window">
+                    <div class="chat-header">
+                        <p class="chat-username">Rozmowa z: Jan Kowalski</p>
+                    </div>
+                    <div class="chat-messages" id="chatMessages">
+                        <!-- Wiadomości będą tutaj wstawiane -->
+                    </div>
+                    <div class="message-input">
+                        <input type="text" id="messageText" class="input-text" placeholder="Napisz wiadomość...">
+                        <button id="sendMessage" class="send-button" onclick="sendMessage()">Wyślij</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Projekt Inżynierski. Wszystkie prawa zastrzeżone.</p>
+    </footer>
+</div>
+
+    <script src="~/js/UserMessage.js"></script>
+</body>
+</html>

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ah3zS3Oc2WAXY9Owf0eVkIUaNPFwiLTYkz05pRXfU8Q=",
+  "Hash": "YqIBpbcqKm3nW7NkbOvLldXMoKRBK2kHVhDdsOc6F3Q=",
   "Source": "Projekt inz",
   "BasePath": "_content/Projekt inz",
   "Mode": "Default",
@@ -57,6 +57,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Projekt inz.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\css\\Announcement.css",
+      "SourceId": "Projekt inz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\",
+      "BasePath": "_content/Projekt inz",
+      "RelativePath": "css/Announcement#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "tde3o5ygji",
+      "Integrity": "byiSzMWx2hbAon4CrJhEASLX9iKr9eEag/XJHfJNuPc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Announcement.css"
     },
     {
       "Identity": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\css\\font\\config.json",
@@ -374,6 +395,27 @@
       "OriginalItemSpec": "wwwroot\\css\\font\\README.txt"
     },
     {
+      "Identity": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\css\\ForgotPassword.css",
+      "SourceId": "Projekt inz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\",
+      "BasePath": "_content/Projekt inz",
+      "RelativePath": "css/ForgotPassword#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "l1ru44z7gk",
+      "Integrity": "lxc2hhOUCIaw6CIQJngjxQ1MHiPkNlU60ggoDqy/oWM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\ForgotPassword.css"
+    },
+    {
       "Identity": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\css\\HomePage.css",
       "SourceId": "Projekt inz",
       "SourceType": "Discovered",
@@ -661,11 +703,32 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "vbkwd2qmqf",
-      "Integrity": "68NQsPsIjjZdXXwqtT63AeDJEoFPDYUpK/imUM0I98k=",
+      "Fingerprint": "xfby3zn723",
+      "Integrity": "kxLKBiFj+zj4456BpyXGJDrMNF1KcakbU5Pt/37Lyas=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\User\\UserAccount.css"
+    },
+    {
+      "Identity": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\css\\User\\UserMessage.css",
+      "SourceId": "Projekt inz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\",
+      "BasePath": "_content/Projekt inz",
+      "RelativePath": "css/User/UserMessage#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xy2hpxcq7i",
+      "Integrity": "SUYiQNShDnlw1y+WR7pdEEpc0NapoSIJbi3jFL4y5uQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\User\\UserMessage.css"
     },
     {
       "Identity": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\css\\User\\UserSetting.css",
@@ -682,32 +745,11 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "ghvunhcgzp",
-      "Integrity": "5BXYhbC7oMJFLlHPzk026Vwk0PYZ4hiinWKoxIqSjFc=",
+      "Fingerprint": "bxd838q5q4",
+      "Integrity": "f9sw1glogJYXnbBAagHtTTFw63BlJ6dzaYHTpy2TqOM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\User\\UserSetting.css"
-    },
-    {
-      "Identity": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\Dane\\JavaScript.js",
-      "SourceId": "Projekt inz",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\",
-      "BasePath": "_content/Projekt inz",
-      "RelativePath": "Dane/JavaScript#[.{fingerprint}]?.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "3r8b2a0bt1",
-      "Integrity": "8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Dane\\JavaScript.js"
     },
     {
       "Identity": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\Dane\\Nieruchomosci.js",
@@ -1039,11 +1081,32 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "th0azgprfd",
-      "Integrity": "AbSuUSMh8Qk3+/el1Ei9l+3a2Tbzs6tv2l8wWXgn5Q0=",
+      "Fingerprint": "i06ytttihs",
+      "Integrity": "Doyl7R3/DxWpzCTDQ1aqF907PLO6wVuPs4/D6n/L5lc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\HomePage.js"
+    },
+    {
+      "Identity": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\js\\UserMessage.js",
+      "SourceId": "Projekt inz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\",
+      "BasePath": "_content/Projekt inz",
+      "RelativePath": "js/UserMessage#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "iheplysher",
+      "Integrity": "lhL4bDCL8SZdh/fMw2INefnvkepC9VA2A9Rtydq6EaU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\UserMessage.js"
     },
     {
       "Identity": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
@@ -2244,6 +2307,88 @@
     }
   ],
   "Endpoints": [
+    {
+      "Route": "css/Announcement.css",
+      "AssetFile": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\css\\Announcement.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3025"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"byiSzMWx2hbAon4CrJhEASLX9iKr9eEag/XJHfJNuPc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 05 Jan 2025 22:03:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-byiSzMWx2hbAon4CrJhEASLX9iKr9eEag/XJHfJNuPc="
+        }
+      ]
+    },
+    {
+      "Route": "css/Announcement.tde3o5ygji.css",
+      "AssetFile": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\css\\Announcement.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3025"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"byiSzMWx2hbAon4CrJhEASLX9iKr9eEag/XJHfJNuPc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 05 Jan 2025 22:03:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tde3o5ygji"
+        },
+        {
+          "Name": "label",
+          "Value": "css/Announcement.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-byiSzMWx2hbAon4CrJhEASLX9iKr9eEag/XJHfJNuPc="
+        }
+      ]
+    },
     {
       "Route": "css/font/config.json",
       "AssetFile": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\css\\font\\config.json",
@@ -3475,6 +3620,88 @@
       ]
     },
     {
+      "Route": "css/ForgotPassword.css",
+      "AssetFile": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\css\\ForgotPassword.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2973"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lxc2hhOUCIaw6CIQJngjxQ1MHiPkNlU60ggoDqy/oWM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 17 Dec 2024 20:18:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lxc2hhOUCIaw6CIQJngjxQ1MHiPkNlU60ggoDqy/oWM="
+        }
+      ]
+    },
+    {
+      "Route": "css/ForgotPassword.l1ru44z7gk.css",
+      "AssetFile": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\css\\ForgotPassword.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2973"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lxc2hhOUCIaw6CIQJngjxQ1MHiPkNlU60ggoDqy/oWM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 17 Dec 2024 20:18:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "l1ru44z7gk"
+        },
+        {
+          "Name": "label",
+          "Value": "css/ForgotPassword.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-lxc2hhOUCIaw6CIQJngjxQ1MHiPkNlU60ggoDqy/oWM="
+        }
+      ]
+    },
+    {
       "Route": "css/HomePage.css",
       "AssetFile": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\css\\HomePage.css",
       "Selectors": [],
@@ -3743,7 +3970,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 09 Dec 2024 04:47:07 GMT"
+          "Value": "Sat, 04 Jan 2025 00:52:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3780,7 +4007,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 09 Dec 2024 04:47:07 GMT"
+          "Value": "Sat, 04 Jan 2025 00:52:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4551,7 +4778,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5031"
+          "Value": "5056"
         },
         {
           "Name": "Content-Type",
@@ -4559,11 +4786,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"68NQsPsIjjZdXXwqtT63AeDJEoFPDYUpK/imUM0I98k=\""
+          "Value": "\"kxLKBiFj+zj4456BpyXGJDrMNF1KcakbU5Pt/37Lyas=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 12 Dec 2024 03:42:26 GMT"
+          "Value": "Sun, 05 Jan 2025 21:52:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4573,12 +4800,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-68NQsPsIjjZdXXwqtT63AeDJEoFPDYUpK/imUM0I98k="
+          "Value": "sha256-kxLKBiFj+zj4456BpyXGJDrMNF1KcakbU5Pt/37Lyas="
         }
       ]
     },
     {
-      "Route": "css/User/UserAccount.vbkwd2qmqf.css",
+      "Route": "css/User/UserAccount.xfby3zn723.css",
       "AssetFile": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\css\\User\\UserAccount.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -4588,7 +4815,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5031"
+          "Value": "5056"
         },
         {
           "Name": "Content-Type",
@@ -4596,11 +4823,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"68NQsPsIjjZdXXwqtT63AeDJEoFPDYUpK/imUM0I98k=\""
+          "Value": "\"kxLKBiFj+zj4456BpyXGJDrMNF1KcakbU5Pt/37Lyas=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 12 Dec 2024 03:42:26 GMT"
+          "Value": "Sun, 05 Jan 2025 21:52:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4610,7 +4837,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "vbkwd2qmqf"
+          "Value": "xfby3zn723"
         },
         {
           "Name": "label",
@@ -4618,7 +4845,134 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-68NQsPsIjjZdXXwqtT63AeDJEoFPDYUpK/imUM0I98k="
+          "Value": "sha256-kxLKBiFj+zj4456BpyXGJDrMNF1KcakbU5Pt/37Lyas="
+        }
+      ]
+    },
+    {
+      "Route": "css/User/UserMessage.css",
+      "AssetFile": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\css\\User\\UserMessage.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4929"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SUYiQNShDnlw1y+WR7pdEEpc0NapoSIJbi3jFL4y5uQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 05 Jan 2025 01:06:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SUYiQNShDnlw1y+WR7pdEEpc0NapoSIJbi3jFL4y5uQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/User/UserMessage.xy2hpxcq7i.css",
+      "AssetFile": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\css\\User\\UserMessage.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4929"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SUYiQNShDnlw1y+WR7pdEEpc0NapoSIJbi3jFL4y5uQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 05 Jan 2025 01:06:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xy2hpxcq7i"
+        },
+        {
+          "Name": "label",
+          "Value": "css/User/UserMessage.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SUYiQNShDnlw1y+WR7pdEEpc0NapoSIJbi3jFL4y5uQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/User/UserSetting.bxd838q5q4.css",
+      "AssetFile": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\css\\User\\UserSetting.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5674"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"f9sw1glogJYXnbBAagHtTTFw63BlJ6dzaYHTpy2TqOM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 05 Jan 2025 21:58:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bxd838q5q4"
+        },
+        {
+          "Name": "label",
+          "Value": "css/User/UserSetting.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-f9sw1glogJYXnbBAagHtTTFw63BlJ6dzaYHTpy2TqOM="
         }
       ]
     },
@@ -4633,7 +4987,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5272"
+          "Value": "5674"
         },
         {
           "Name": "Content-Type",
@@ -4641,11 +4995,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"5BXYhbC7oMJFLlHPzk026Vwk0PYZ4hiinWKoxIqSjFc=\""
+          "Value": "\"f9sw1glogJYXnbBAagHtTTFw63BlJ6dzaYHTpy2TqOM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 12 Dec 2024 04:03:21 GMT"
+          "Value": "Sun, 05 Jan 2025 21:58:21 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4655,134 +5009,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-5BXYhbC7oMJFLlHPzk026Vwk0PYZ4hiinWKoxIqSjFc="
-        }
-      ]
-    },
-    {
-      "Route": "css/User/UserSetting.ghvunhcgzp.css",
-      "AssetFile": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\css\\User\\UserSetting.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "5272"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"5BXYhbC7oMJFLlHPzk026Vwk0PYZ4hiinWKoxIqSjFc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 12 Dec 2024 04:03:21 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "ghvunhcgzp"
-        },
-        {
-          "Name": "label",
-          "Value": "css/User/UserSetting.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-5BXYhbC7oMJFLlHPzk026Vwk0PYZ4hiinWKoxIqSjFc="
-        }
-      ]
-    },
-    {
-      "Route": "Dane/JavaScript.3r8b2a0bt1.js",
-      "AssetFile": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\Dane\\JavaScript.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "3"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 10 Dec 2024 22:33:47 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "3r8b2a0bt1"
-        },
-        {
-          "Name": "label",
-          "Value": "Dane/JavaScript.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U="
-        }
-      ]
-    },
-    {
-      "Route": "Dane/JavaScript.js",
-      "AssetFile": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\Dane\\JavaScript.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "3"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 10 Dec 2024 22:33:47 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U="
+          "Value": "sha256-f9sw1glogJYXnbBAagHtTTFw63BlJ6dzaYHTpy2TqOM="
         }
       ]
     },
@@ -6017,6 +6244,51 @@
       ]
     },
     {
+      "Route": "js/HomePage.i06ytttihs.js",
+      "AssetFile": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\js\\HomePage.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9007"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Doyl7R3/DxWpzCTDQ1aqF907PLO6wVuPs4/D6n/L5lc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 05 Jan 2025 22:14:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "i06ytttihs"
+        },
+        {
+          "Name": "label",
+          "Value": "js/HomePage.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Doyl7R3/DxWpzCTDQ1aqF907PLO6wVuPs4/D6n/L5lc="
+        }
+      ]
+    },
+    {
       "Route": "js/HomePage.js",
       "AssetFile": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\js\\HomePage.js",
       "Selectors": [],
@@ -6027,7 +6299,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8211"
+          "Value": "9007"
         },
         {
           "Name": "Content-Type",
@@ -6035,11 +6307,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"AbSuUSMh8Qk3+/el1Ei9l+3a2Tbzs6tv2l8wWXgn5Q0=\""
+          "Value": "\"Doyl7R3/DxWpzCTDQ1aqF907PLO6wVuPs4/D6n/L5lc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 03:01:17 GMT"
+          "Value": "Sun, 05 Jan 2025 22:14:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6049,13 +6321,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-AbSuUSMh8Qk3+/el1Ei9l+3a2Tbzs6tv2l8wWXgn5Q0="
+          "Value": "sha256-Doyl7R3/DxWpzCTDQ1aqF907PLO6wVuPs4/D6n/L5lc="
         }
       ]
     },
     {
-      "Route": "js/HomePage.th0azgprfd.js",
-      "AssetFile": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\js\\HomePage.js",
+      "Route": "js/UserMessage.iheplysher.js",
+      "AssetFile": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\js\\UserMessage.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6064,7 +6336,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8211"
+          "Value": "2124"
         },
         {
           "Name": "Content-Type",
@@ -6072,11 +6344,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"AbSuUSMh8Qk3+/el1Ei9l+3a2Tbzs6tv2l8wWXgn5Q0=\""
+          "Value": "\"lhL4bDCL8SZdh/fMw2INefnvkepC9VA2A9Rtydq6EaU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 03:01:17 GMT"
+          "Value": "Mon, 16 Dec 2024 20:35:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6086,15 +6358,52 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "th0azgprfd"
+          "Value": "iheplysher"
         },
         {
           "Name": "label",
-          "Value": "js/HomePage.js"
+          "Value": "js/UserMessage.js"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-AbSuUSMh8Qk3+/el1Ei9l+3a2Tbzs6tv2l8wWXgn5Q0="
+          "Value": "sha256-lhL4bDCL8SZdh/fMw2INefnvkepC9VA2A9Rtydq6EaU="
+        }
+      ]
+    },
+    {
+      "Route": "js/UserMessage.js",
+      "AssetFile": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\js\\UserMessage.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2124"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lhL4bDCL8SZdh/fMw2INefnvkepC9VA2A9Rtydq6EaU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 16 Dec 2024 20:35:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lhL4bDCL8SZdh/fMw2INefnvkepC9VA2A9Rtydq6EaU="
         }
       ]
     },

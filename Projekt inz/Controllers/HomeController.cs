@@ -43,30 +43,10 @@ namespace Projekt_inz.Controllers
             return View("SellOrRent/Sell/Sell");
         }
 
-        public IActionResult RentFlat()
+        public IActionResult Rent()
         {
-            return View("SellOrRent/Sell/SellHall");
-        }
-        public IActionResult RentPlots()
-        {
-            return View("SellOrRent/Rent/RentPlots");
-        }
-        public IActionResult RentLocal()
-        {
-            return View("SellOrRent/Rent/RentLocal");
-        }
-        public IActionResult RentHouse()
-        {
-            return View("SellOrRent/Rent/RentHouse");
-        }
-        public IActionResult RentRoom()
-        {
-            return View("SellOrRent/Rent/RentRoom");
-        }
-        public IActionResult RentGarage()
-        {
-            return View("SellOrRent/Rent/RentGarage");
-        }
+            return View("SellOrRent/Rent/Rent");
+        }      
 
         public IActionResult ResultPage()
         {
@@ -104,6 +84,21 @@ namespace Projekt_inz.Controllers
         public IActionResult UserSetting()
         {
             return View("User/UserSetting");
+        }
+
+        public IActionResult UserMessage()
+        {
+            return View("User/UserMessage");
+        }
+
+        public IActionResult ForgotPassword()
+        {
+            return View();
+        }
+
+        public IActionResult Announcement()
+        {
+            return View();
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

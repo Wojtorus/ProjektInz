@@ -5,12 +5,16 @@
       "PackagePath": "staticwebassets\\Projekt inz.30tkn1var7.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\Dane\\JavaScript.js",
-      "PackagePath": "staticwebassets\\Dane\\JavaScript.js"
-    },
-    {
       "Id": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\Dane\\Nieruchomosci.js",
       "PackagePath": "staticwebassets\\Dane\\Nieruchomosci.js"
+    },
+    {
+      "Id": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\css\\Announcement.css",
+      "PackagePath": "staticwebassets\\css\\Announcement.css"
+    },
+    {
+      "Id": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\css\\ForgotPassword.css",
+      "PackagePath": "staticwebassets\\css\\ForgotPassword.css"
     },
     {
       "Id": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\css\\HomePage.css",
@@ -67,6 +71,10 @@
     {
       "Id": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\css\\User\\UserAccount.css",
       "PackagePath": "staticwebassets\\css\\User\\UserAccount.css"
+    },
+    {
+      "Id": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\css\\User\\UserMessage.css",
+      "PackagePath": "staticwebassets\\css\\User\\UserMessage.css"
     },
     {
       "Id": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\css\\User\\UserSetting.css",
@@ -191,6 +199,10 @@
     {
       "Id": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\js\\HomePage.js",
       "PackagePath": "staticwebassets\\js\\HomePage.js"
+    },
+    {
+      "Id": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\js\\UserMessage.js",
+      "PackagePath": "staticwebassets\\js\\UserMessage.js"
     },
     {
       "Id": "C:\\Users\\Wojtek\\source\\repos\\Projekt inz\\Projekt inz\\wwwroot\\lib\\bootstrap\\LICENSE",

@@ -224,4 +224,28 @@ document.addEventListener("DOMContentLoaded", function () {
 
     });
 
+document.addEventListener("DOMContentLoaded", function () {
+    const sellButton = document.getElementById("sell");
+    const rentButton = document.getElementById("rent");
+    const sellGrid = document.getElementById("sell-grid");
+    const rentGrid = document.getElementById("rent-grid");
+
+    sellButton.addEventListener("click", function () {
+        sellButton.classList.add("active");
+        rentButton.classList.remove("active");
+
+        sellGrid.style.display = "grid";
+        rentGrid.style.display = "none";
+    });
+
+    rentButton.addEventListener("click", function () {
+        rentButton.classList.add("active");
+        sellButton.classList.remove("active");
+
+        rentGrid.style.display = "grid";
+        sellGrid.style.display = "none";
+    });
+});
+
+
 

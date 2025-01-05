@@ -1,4 +1,6 @@
-﻿<!DOCTYPE html>
+﻿
+
+<!DOCTYPE html>
 <html lang="pl">
 <head>
     <meta charset="UTF-8">
@@ -26,7 +28,7 @@
                     <span class="nav-title">Ogłoszenia</span>
                 </a>
 
-                <a class="userSettings" href="#">
+                <a class="userSettings" href="@Url.Action("UserMessage", "Home")">
                     <div class="nav-button"><i class="icon-chat" style="font-size: 20px;"></i></div>
                     <span class="nav-title">Wiadomości</span>
                 </a>
@@ -64,14 +66,232 @@
                     <div class="form-row">
                         <div class="row">
                             <label for="new-email">Nowy e-mail*</label>
-                            <input id="new-email" type="email" placeholder="Wpisz nowy e-mail">
+                            <input id="new-email" type="email" name="Email" placeholder="Wpisz nowy e-mail">
                         </div>
                         <div class="row">
-                            <label for="new-email">Nowy e-mail*</label>
-                            <input id="new-email" type="email" placeholder="Wpisz nowy e-mail">
+                            <label for="new-email">Aktualne hasło*</label>
+                            <input id="new-email" type="password" placeholder="Wpisz hasło">
                         </div>
                     </div>
                     <button type="submit" class="btn-primary">Zmień adres email</button>
+                </form>
+
+                <h2 class="section-title">Zmień dane uzytkownika</h2>
+                <form class="form-section">
+                    <div class="form-row">
+                        <div class="row">
+                            <label> Imię:</label>
+                            <input type="text" name="FirstName" placeholder="Wpisz nowe imie"  />
+                        </div>
+                        <div class="row">
+                            <label>Nazwisko:</label>
+                            <input type="text" name="LastName" placeholder="Wpisz nowe nazwisko" />
+                        </div>
+                        <div class="row">
+                            <label>Numer telefonu:</label>
+                            <input type="text" name="PhoneNumber" placeholder="Wpisz nowy numer" />
+                        </div>
+                    </div>
+                    <button type="submit" class="btn-primary">Zmień dane</button>
+                </form>
+
+                <h2 class="section-title">Zarządzanie zawartością konta</h2>
+                <p class="info-text">
+                    Dane na koncie serwisu Otodom pozostają pod Twoją kontrolą. W dowolnym momencie możesz pobrać Twoje dane lub usunąć swoje konto (opcja "Usuń moje konto"). <strong>UWAGA!</strong> Usunięcie konta jest nieodwracalne.
+                </p>
+                <div class="action-buttons">
+                    <button class="btn-secondary">Przekaż moje dane</button>
+                    <button class="btn-danger">Usuń moje konto</button>
+                </div>
+            </div>
+
+            <div class="settings-container">
+                <h2 class="section-title">Zmień hasło</h2>
+                <form class="form-section">
+                    <div class="form-row">
+                        <div class="row">
+                            <label for="current-password">Aktualne hasło*</label>
+                            <input id="current-password" type="password" placeholder="Wpisz aktualne hasło">
+                        </div>
+                        <div class="row">
+                            <label for="current-password">Nowe hasło*</label>
+                            <input id="current-password" type="password" placeholder="Wpisz aktualne hasło">
+                        </div>
+                        <div class="row">
+                            <label for="current-password">Powtórz nowe hasło*</label>
+                            <input id="current-password" type="password" placeholder="Wpisz aktualne hasło">
+                        </div>
+                    </div>
+        
+                    <button type="submit" class="btn-primary">Zmień hasło</button>
+                </form>
+
+                <h2 class="section-title">Zmień adres email</h2>
+                <form class="form-section">
+                    <div class="form-row">
+                        <div class="row">
+                            <label for="new-email">Nowy e-mail*</label>
+                            <input id="new-email" type="email" name="Email" placeholder="Wpisz nowy e-mail">
+                        </div>
+                        <div class="row">
+                            <label for="new-email">Aktualne hasło*</label>
+                            <input id="new-email" type="password" placeholder="Wpisz hasło">
+                        </div>
+                    </div>
+                    <button type="submit" class="btn-primary">Zmień adres email</button>
+                </form>
+
+                <h2 class="section-title">Zmień dane: </h2>
+                <form class="form-section">
+                    <div class="form-row">
+                        <div class="row">
+                            <label> Nazwa firmy:</label>
+                            <input type="text" name="FirstName" placeholder="Wpisz firmie"  />
+                        </div>
+                        <div class="row">
+                            <label>NIP:</label>
+                            <input type="text" name="LastName" placeholder="Wpisz NIP" />
+                        </div>
+                        <div class="row">
+                            <label>Adres firmy:</label>
+                            <input type="text" name="PhoneNumber" placeholder="Wpisz adres" />
+                        </div>
+                        <div class="row">
+                            <label>Numer telefonu:</label>
+                            <input type="text" name="PhoneNumber" placeholder="Wpisz nowy numer" />
+                        </div>
+                    </div>
+                    <button type="submit" class="btn-primary">Zmień dane</button>
+                </form>
+
+                <h2 class="section-title">Zarządzanie zawartością konta</h2>
+                <p class="info-text">
+                    Dane na koncie serwisu Otodom pozostają pod Twoją kontrolą. W dowolnym momencie możesz pobrać Twoje dane lub usunąć swoje konto (opcja "Usuń moje konto"). <strong>UWAGA!</strong> Usunięcie konta jest nieodwracalne.
+                </p>
+                <div class="action-buttons">
+                    <button class="btn-secondary">Przekaż moje dane</button>
+                    <button class="btn-danger">Usuń moje konto</button>
+                </div>
+            </div>
+
+            <div class="settings-container">
+                <h2 class="section-title">Zmień hasło</h2>
+                <form class="form-section">
+                    <div class="form-row">
+                        <div class="row">
+                            <label for="current-password">Aktualne hasło*</label>
+                            <input id="current-password" type="password" placeholder="Wpisz aktualne hasło">
+                        </div>
+                        <div class="row">
+                            <label for="current-password">Nowe hasło*</label>
+                            <input id="current-password" type="password" placeholder="Wpisz aktualne hasło">
+                        </div>
+                        <div class="row">
+                            <label for="current-password">Powtórz nowe hasło*</label>
+                            <input id="current-password" type="password" placeholder="Wpisz aktualne hasło">
+                        </div>
+                    </div>
+        
+                    <button type="submit" class="btn-primary">Zmień hasło</button>
+                </form>
+
+                <h2 class="section-title">Zmień adres email</h2>
+                <form class="form-section">
+                    <div class="form-row">
+                        <div class="row">
+                            <label for="new-email">Nowy e-mail*</label>
+                            <input id="new-email" type="email" name="Email" placeholder="Wpisz nowy e-mail">
+                        </div>
+                        <div class="row">
+                            <label for="new-email">Aktualne hasło*</label>
+                            <input id="new-email" type="password" placeholder="Wpisz hasło">
+                        </div>
+                    </div>
+                    <button type="submit" class="btn-primary">Zmień adres email</button>
+                </form>
+
+                <h2 class="section-title">Zmień dane uzytkownika</h2>
+                <form class="form-section">
+                    <div class="form-row">
+                        <div class="row">
+                            <label> Imię:</label>
+                            <input type="text" name="FirstName" placeholder="Wpisz nowe imie"  />
+                        </div>
+                        <div class="row">
+                            <label>Nazwisko:</label>
+                            <input type="text" name="LastName" placeholder="Wpisz nowe nazwisko" />
+                        </div>
+                        <div class="row">
+                            <label>Numer telefonu:</label>
+                            <input type="text" name="PhoneNumber" placeholder="Wpisz nowy numer" />
+                        </div>
+                    </div>
+                    <button type="submit" class="btn-primary">Zmień dane</button>
+                </form>
+
+                <h2 class="section-title">Zarządzanie zawartością konta</h2>
+                <p class="info-text">
+                    Dane na koncie serwisu Otodom pozostają pod Twoją kontrolą. W dowolnym momencie możesz pobrać Twoje dane lub usunąć swoje konto (opcja "Usuń moje konto"). <strong>UWAGA!</strong> Usunięcie konta jest nieodwracalne.
+                </p>
+                <div class="action-buttons">
+                    <button class="btn-secondary">Przekaż moje dane</button>
+                    <button class="btn-danger">Usuń moje konto</button>
+                </div>
+            </div>
+
+            <div class="settings-container">
+                <h2 class="section-title">Zmień hasło</h2>
+                <form class="form-section">
+                    <div class="form-row">
+                        <div class="row">
+                            <label for="current-password">Aktualne hasło*</label>
+                            <input id="current-password" type="password" placeholder="Wpisz aktualne hasło">
+                        </div>
+                        <div class="row">
+                            <label for="current-password">Nowe hasło*</label>
+                            <input id="current-password" type="password" placeholder="Wpisz aktualne hasło">
+                        </div>
+                        <div class="row">
+                            <label for="current-password">Powtórz nowe hasło*</label>
+                            <input id="current-password" type="password" placeholder="Wpisz aktualne hasło">
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn-primary">Zmień hasło</button>
+                </form>
+
+                <h2 class="section-title">Zmień adres email</h2>
+                <form class="form-section">
+                    <div class="form-row">
+                        <div class="row">
+                            <label for="new-email">Nowy e-mail*</label>
+                            <input id="new-email" type="email" name="Email" placeholder="Wpisz nowy e-mail">
+                        </div>
+                        <div class="row">
+                            <label for="new-email">Aktualne hasło*</label>
+                            <input id="new-email" type="password" placeholder="Wpisz hasło">
+                        </div>
+                    </div>
+                    <button type="submit" class="btn-primary">Zmień adres email</button>
+                </form>
+
+                <h2 class="section-title">Zmień dane uzytkownika</h2>
+                <form class="form-section">
+                    <div class="form-row">
+                        <div class="row">
+                            <label> Imię:</label>
+                            <input type="text" name="FirstName" placeholder="Wpisz nowe imie" />
+                        </div>
+                        <div class="row">
+                            <label>Nazwisko:</label>
+                            <input type="text" name="LastName" placeholder="Wpisz nowe nazwisko" />
+                        </div>
+                        <div class="row">
+                            <label>Numer telefonu:</label>
+                            <input type="text" name="PhoneNumber" placeholder="Wpisz nowy numer" />
+                        </div>
+                    </div>
+                    <button type="submit" class="btn-primary">Zmień dane</button>
                 </form>
 
                 <h2 class="section-title">Zarządzanie zawartością konta</h2>
@@ -84,6 +304,7 @@
                 </div>
             </div>
         </div>
+</div>
 
 
 

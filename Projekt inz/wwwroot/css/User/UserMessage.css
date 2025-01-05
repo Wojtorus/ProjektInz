@@ -1,5 +1,4 @@
-﻿
-* {
+﻿* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -163,153 +162,122 @@ header {
     cursor: pointer;
 }
 
-.tab-content {
-    display: none;
-    background-color: #3a3a3a;
-    padding: 20px;
-    border-radius: 5px;
-    margin-top: 20px;
-}
-
-    .tab-content.active-tab {
-        display: block;
-    }
-
-h2 {
-    font-size: 24px;
-    margin-bottom: 15px;
-}
-
 #secondContainer {
     background-color: #161616;
-    width:100%;
-    padding:20px;
-    display:flex;
-    flex-direction:column;
+    width: 100%;
+    padding: 20px;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.settings-container {
-    margin-bottom: 20px;
-    max-width: 800px;
+.messages-container {
+    display: flex;
+    gap: 20px;
     padding: 20px;
-    background-color: #2c2c2c;
-    border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
-.section-title {
-    color: #fff;
-    font-size: 20px;
-    margin-bottom: 15px;
-    border-bottom: 1px solid #444;
-    padding-bottom: 5px;
+.user-list {
+    flex: 1;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    min-width: 250px;
 }
 
-.form-section {
-    margin-bottom: 30px;
-}
-
-.form-row {
-    display: flex;
-    gap: 15px;
-}
-.row {
-    display: flex;
-    flex-direction: column;
-}
-
-    .row label {
-        margin-bottom: 5px;
-        color: #cfcfcf;
-    }
-
-    .row input {
-        width: 100%;
-        padding: 10px;
-        font-size: 14px;
-        border: 1px solid #444;
-        border-radius: 5px;
-        background-color: #3c3c3c;
-        color: #fff;
-    }
-        .row input:focus {
-            outline: none;
-            border: 1px solid #ff84ff;
-            box-shadow: 0 0 5px rgba(138, 138, 255, 0.5);
-        }
-        .row input::placeholder {
-            color: #999;
-        }
-
-.btn-primary {
-    padding: 10px 20px;
-    font-size: 16px;
-    background-color: #162938;
-    color: white;
-    border: 1px solid white;
-    border-radius: 5px;
+.user-item {
+    background-color: #444;
+    padding: 10px;
+    margin-bottom: 10px;
     cursor: pointer;
-    transition: all 0.3s ease;
-    display: block;
-    margin-top: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
 }
 
-    .btn-primary:hover {
+    .user-item:hover {
         background-color: #ff84ff;
-        cursor: pointer;
-        color: black;
+        color:black;
     }
 
-.info-text {
-    font-size: 14px;
-    line-height: 1.6;
-    color: #cfcfcf;
+.username {
+    font-size: 16px;
+    color: #fff;
+}
+
+.chat-window {
+    flex: 3;
+    background-color: #2b2b2b;
+    padding: 20px;
+    border-radius: 10px;
+    min-width: 500px;
+}
+
+.chat-header {
+    background-color: #444;
+    padding: 10px;
+    border-radius: 5px;
     margin-bottom: 20px;
 }
 
-.action-buttons {
+.chat-username {
+    font-size: 20px;
+    color: #ff84ff;
+}
+
+.chat-messages {
+    max-height: 400px;
+    overflow-y: auto;
+    margin-bottom: 20px;
+    background-color: #333;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.message-input {
     display: flex;
-    justify-content: space-between;
     gap: 10px;
 }
 
-.btn-secondary {
-    padding: 10px 20px;
-    font-size: 16px;
-    color: #fff;
-    background-color: #007bff;
-    border: none;
+.input-text {
+    width: 100%;
+    padding: 10px;
+    background-color: #444;
+    color: white;
+    border: 1px solid #ccc;
     border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
 }
 
-    .btn-secondary:hover {
-        background-color: #0056b3;
+    .input-text:focus {
+        outline: 1px solid #ff84ff;
+        border: none;
     }
 
-.btn-danger {
-    padding: 10px 20px;
-    font-size: 16px;
-    color: #fff;
-    background-color: #dc3545;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+    .send-button {
+        background-color: #162938;
+        color: white;
+        padding: 10px;
+        border: 1px solid white;
+        border-radius: 5px;
+        cursor: pointer;
+        font-weight: 600;
+    }
+
+    .send-button:hover {
+        background-color: #cc6acc;
+        color:black;
+        border:none;
+    }
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 10px;
+    background-color: #333;
 }
 
-    .btn-danger:hover {
-        background-color: #c82333;
+    footer p {
+        font-size: 14px;
+        color: #ccc;
     }
-
-
-/* Stylizacja responsywna */
-@media (max-width: 768px) {
-    .navigation {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-}

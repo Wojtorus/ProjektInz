@@ -1,3 +1,4 @@
+wwwroot\css\Announcement.css
 wwwroot\css\font\config.json
 wwwroot\css\font\css\animation.css
 wwwroot\css\font\css\fontello.css
@@ -13,6 +14,7 @@ wwwroot\css\font\font\fontello.woff
 wwwroot\css\font\font\fontello.woff2
 wwwroot\css\font\LICENSE.txt
 wwwroot\css\font\README.txt
+wwwroot\css\ForgotPassword.css
 wwwroot\css\HomePage.css
 wwwroot\css\Login.css
 wwwroot\css\Register.css
@@ -27,8 +29,8 @@ wwwroot\css\SellOrRent\Rent\RentRoom.css
 wwwroot\css\SellOrRent\Sell\Sell.css
 wwwroot\css\SellOrRent\SellOrRent.css
 wwwroot\css\User\UserAccount.css
+wwwroot\css\User\UserMessage.css
 wwwroot\css\User\UserSetting.css
-wwwroot\Dane\JavaScript.js
 wwwroot\Dane\Nieruchomosci.js
 wwwroot\favicon.ico
 wwwroot\img\Dom1.webp
@@ -45,6 +47,7 @@ wwwroot\img\ProbaPrzyciemnienie1.jpg
 wwwroot\img\Warszawa.jpg
 wwwroot\img\Wroclaw.jpg
 wwwroot\js\HomePage.js
+wwwroot\js\UserMessage.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
 wwwroot\lib\bootstrap\dist\css\bootstrap.min.css

@@ -13,27 +13,31 @@
 <body>
     <div class="container">
         <header>
-            <h1>Sprzedaż</h1>
+            <h1>Wynajem</h1>
         </header>
 
         <form id="sellForm" class="form-container" oninput="updateProgress()">
             <!-- Informacje podstawowe -->
             <fieldset>
                 <legend>Informacje podstawowe</legend>
-                <label>Tytuł ogłoszenia <span class="required">*</span>
+                <label>
+                    Tytuł ogłoszenia <span class="required">*</span>
                     <input type="text" name="Tytul" required>
                 </label>
                 <label>
-                     Numer telefonu do kontaktu <span class="required">*</span>
+                    Numer telefonu do kontaktu <span class="required">*</span>
                     <input type="text" name="NumerTelefonu" required>
                 </label>
-                <label>Powierzchnia (m²)
+                <label>
+                    Powierzchnia (m²)
                     <input type="number" name="Powierzchnia" step="0.1" required>
                 </label>
-                <label>Cena <span class="required">*</span>
+                <label>
+                    Cena <span class="required">*</span>
                     <input type="number" name="Cena" step="1" required>
                 </label>
-                <label>Cena za m²                    
+                <label>
+                    Cena za m²
                     <input type="number" name="Cena za m2" step="1" required>
                 </label>
                 <label>
@@ -68,9 +72,9 @@
                         <option value="no">Nie</option>
                     </select>
                 </label>
-                
 
-            <button type="submit">Zatwierdź ogłoszenie</button>
+
+                <button type="submit">Zatwierdź ogłoszenie</button>
             </fieldset>
         </form>
     </div>
@@ -88,3 +92,4 @@
     </script>
 </body>
 </html>
+
